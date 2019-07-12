@@ -1,0 +1,21 @@
+{
+    "id": "Arcadia",
+    "title": "Should only query single datasets",
+    "description": "Has dataset id courses and cpsc in COLUMNS",
+    "query": {
+        "WHERE": {
+            "IS": {
+                "courses_dept": "cpsc"
+            }
+        },
+        "OPTIONS": {
+            "COLUMNS": [
+                "courses_dept",
+                "cpsc_id"
+            ],
+            "ORDER": "courses_id"
+        }
+    },
+    "isQueryValid": false,
+    "result": "InsightError"
+}

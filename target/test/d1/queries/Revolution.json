@@ -1,0 +1,1 @@
+{"id": "Revolution", "title": "performQuery reject with InsightError.", "description": "Uses an invalid key \"courses_invalid\" in the WHERE clause.", "query": {"WHERE": {"IS": {"courses_invalid": "cpsc"}}, "OPTIONS": {"COLUMNS": ["courses_invalid"]}}, "isQueryValid": false, "result": "InsightError"}

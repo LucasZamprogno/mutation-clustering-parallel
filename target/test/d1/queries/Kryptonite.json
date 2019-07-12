@@ -1,0 +1,1 @@
+{"id": "Kryptonite", "title": "Invalid EQ should reject with InsightError.", "description": "EQ clause uses a string, should be a number", "query": {"WHERE": {"EQ": {"courses_pass": "cpsc"}}, "OPTIONS": {"COLUMNS": ["courses_dept", "courses_id", "courses_pass"], "ORDER": "courses_pass"}}, "isQueryValid": false, "result": "InsightError"}
