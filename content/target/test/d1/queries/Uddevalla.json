@@ -1,0 +1,30 @@
+{
+    "id":"Uddevalla",
+    "title":"Invalid query should reject with InsightError.",
+    "description":"Field \"courses_year\" is specified as a string rather than a number",
+    "query":{
+        "WHERE":{
+            "AND":[
+                {
+                    "IS":{
+                        "courses_dept":"cpsc"
+                    }
+                },
+                {
+                    "EQ":{
+                        "courses_year":"2015"
+                    }
+                }
+            ]
+        },
+        "OPTIONS":{
+            "COLUMNS":[
+                "courses_dept",
+                "courses_instructor",
+                "courses_year"
+            ]
+        }
+    },
+    "isQueryValid":false,
+	"result": "InsightError"
+}

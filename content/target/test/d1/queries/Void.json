@@ -1,0 +1,4462 @@
+{
+    "id": "Void",
+    "title": "Query with no filter should be supported (for a small dataset).",
+    "description": "This test gets the columns \"cpsc_dept\" and \"cpsc_id\" for all cpsc sections.",
+    "query": {
+        "WHERE": {},
+        "OPTIONS": {
+            "COLUMNS": [
+                "cpsc_dept",
+                "cpsc_id"
+            ],
+            "ORDER": "cpsc_id"
+        }
+    },
+    "isQueryValid": true,
+    "result": [
+        {
+            "cpsc_id": "110",
+            "cpsc_dept": "cpsc"
+        },
+        {
+            "cpsc_id": "110",
+            "cpsc_dept": "cpsc"
+        },
+        {
+            "cpsc_id": "110",
+            "cpsc_dept": "cpsc"
+        },
+        {
+            "cpsc_id": "110",
+            "cpsc_dept": "cpsc"
+        },
+        {
+            "cpsc_id": "110",
+            "cpsc_dept": "cpsc"
+        },
+        {
+            "cpsc_id": "110",
+            "cpsc_dept": "cpsc"
+        },
+        {
+            "cpsc_id": "110",
+            "cpsc_dept": "cpsc"
+        },
+        {
+            "cpsc_id": "110",
+            "cpsc_dept": "cpsc"
+        },
+        {
+            "cpsc_id": "110",
+            "cpsc_dept": "cpsc"
+        },
+        {
+            "cpsc_id": "110",
+            "cpsc_dept": "cpsc"
+        },
+        {
+            "cpsc_id": "110",
+            "cpsc_dept": "cpsc"
+        },
+        {
+            "cpsc_id": "110",
+            "cpsc_dept": "cpsc"
+        },
+        {
+            "cpsc_id": "110",
+            "cpsc_dept": "cpsc"
+        },
+        {
+            "cpsc_id": "110",
+            "cpsc_dept": "cpsc"
+        },
+        {
+            "cpsc_id": "110",
+            "cpsc_dept": "cpsc"
+        },
+        {
+            "cpsc_id": "110",
+            "cpsc_dept": "cpsc"
+        },
+        {
+            "cpsc_id": "110",
+            "cpsc_dept": "cpsc"
+        },
+        {
+            "cpsc_id": "110",
+            "cpsc_dept": "cpsc"
+        },
+        {
+            "cpsc_id": "110",
+            "cpsc_dept": "cpsc"
+        },
+        {
+            "cpsc_id": "110",
+            "cpsc_dept": "cpsc"
+        },
+        {
+            "cpsc_id": "110",
+            "cpsc_dept": "cpsc"
+        },
+        {
+            "cpsc_id": "110",
+            "cpsc_dept": "cpsc"
+        },
+        {
+            "cpsc_id": "110",
+            "cpsc_dept": "cpsc"
+        },
+        {
+            "cpsc_id": "110",
+            "cpsc_dept": "cpsc"
+        },
+        {
+            "cpsc_id": "110",
+            "cpsc_dept": "cpsc"
+        },
+        {
+            "cpsc_id": "110",
+            "cpsc_dept": "cpsc"
+        },
+        {
+            "cpsc_id": "110",
+            "cpsc_dept": "cpsc"
+        },
+        {
+            "cpsc_id": "110",
+            "cpsc_dept": "cpsc"
+        },
+        {
+            "cpsc_id": "110",
+            "cpsc_dept": "cpsc"
+        },
+        {
+            "cpsc_id": "110",
+            "cpsc_dept": "cpsc"
+        },
+        {
+            "cpsc_id": "110",
+            "cpsc_dept": "cpsc"
+        },
+        {
+            "cpsc_id": "110",
+            "cpsc_dept": "cpsc"
+        },
+        {
+            "cpsc_id": "110",
+            "cpsc_dept": "cpsc"
+        },
+        {
+            "cpsc_id": "110",
+            "cpsc_dept": "cpsc"
+        },
+        {
+            "cpsc_id": "110",
+            "cpsc_dept": "cpsc"
+        },
+        {
+            "cpsc_id": "110",
+            "cpsc_dept": "cpsc"
+        },
+        {
+            "cpsc_id": "110",
+            "cpsc_dept": "cpsc"
+        },
+        {
+            "cpsc_id": "110",
+            "cpsc_dept": "cpsc"
+        },
+        {
+            "cpsc_id": "110",
+            "cpsc_dept": "cpsc"
+        },
+        {
+            "cpsc_id": "110",
+            "cpsc_dept": "cpsc"
+        },
+        {
+            "cpsc_id": "110",
+            "cpsc_dept": "cpsc"
+        },
+        {
+            "cpsc_id": "110",
+            "cpsc_dept": "cpsc"
+        },
+        {
+            "cpsc_id": "110",
+            "cpsc_dept": "cpsc"
+        },
+        {
+            "cpsc_id": "110",
+            "cpsc_dept": "cpsc"
+        },
+        {
+            "cpsc_id": "110",
+            "cpsc_dept": "cpsc"
+        },
+        {
+            "cpsc_id": "110",
+            "cpsc_dept": "cpsc"
+        },
+        {
+            "cpsc_id": "110",
+            "cpsc_dept": "cpsc"
+        },
+        {
+            "cpsc_id": "110",
+            "cpsc_dept": "cpsc"
+        },
+        {
+            "cpsc_id": "110",
+            "cpsc_dept": "cpsc"
+        },
+        {
+            "cpsc_id": "110",
+            "cpsc_dept": "cpsc"
+        },
+        {
+            "cpsc_id": "110",
+            "cpsc_dept": "cpsc"
+        },
+        {
+            "cpsc_id": "110",
+            "cpsc_dept": "cpsc"
+        },
+        {
+            "cpsc_id": "110",
+            "cpsc_dept": "cpsc"
+        },
+        {
+            "cpsc_id": "110",
+            "cpsc_dept": "cpsc"
+        },
+        {
+            "cpsc_id": "110",
+            "cpsc_dept": "cpsc"
+        },
+        {
+            "cpsc_id": "110",
+            "cpsc_dept": "cpsc"
+        },
+        {
+            "cpsc_id": "110",
+            "cpsc_dept": "cpsc"
+        },
+        {
+            "cpsc_id": "110",
+            "cpsc_dept": "cpsc"
+        },
+        {
+            "cpsc_id": "121",
+            "cpsc_dept": "cpsc"
+        },
+        {
+            "cpsc_id": "121",
+            "cpsc_dept": "cpsc"
+        },
+        {
+            "cpsc_id": "121",
+            "cpsc_dept": "cpsc"
+        },
+        {
+            "cpsc_id": "121",
+            "cpsc_dept": "cpsc"
+        },
+        {
+            "cpsc_id": "121",
+            "cpsc_dept": "cpsc"
+        },
+        {
+            "cpsc_id": "121",
+            "cpsc_dept": "cpsc"
+        },
+        {
+            "cpsc_id": "121",
+            "cpsc_dept": "cpsc"
+        },
+        {
+            "cpsc_id": "121",
+            "cpsc_dept": "cpsc"
+        },
+        {
+            "cpsc_id": "121",
+            "cpsc_dept": "cpsc"
+        },
+        {
+            "cpsc_id": "121",
+            "cpsc_dept": "cpsc"
+        },
+        {
+            "cpsc_id": "121",
+            "cpsc_dept": "cpsc"
+        },
+        {
+            "cpsc_id": "121",
+            "cpsc_dept": "cpsc"
+        },
+        {
+            "cpsc_id": "121",
+            "cpsc_dept": "cpsc"
+        },
+        {
+            "cpsc_id": "121",
+            "cpsc_dept": "cpsc"
+        },
+        {
+            "cpsc_id": "121",
+            "cpsc_dept": "cpsc"
+        },
+        {
+            "cpsc_id": "121",
+            "cpsc_dept": "cpsc"
+        },
+        {
+            "cpsc_id": "121",
+            "cpsc_dept": "cpsc"
+        },
+        {
+            "cpsc_id": "121",
+            "cpsc_dept": "cpsc"
+        },
+        {
+            "cpsc_id": "121",
+            "cpsc_dept": "cpsc"
+        },
+        {
+            "cpsc_id": "121",
+            "cpsc_dept": "cpsc"
+        },
+        {
+            "cpsc_id": "121",
+            "cpsc_dept": "cpsc"
+        },
+        {
+            "cpsc_id": "121",
+            "cpsc_dept": "cpsc"
+        },
+        {
+            "cpsc_id": "121",
+            "cpsc_dept": "cpsc"
+        },
+        {
+            "cpsc_id": "121",
+            "cpsc_dept": "cpsc"
+        },
+        {
+            "cpsc_id": "121",
+            "cpsc_dept": "cpsc"
+        },
+        {
+            "cpsc_id": "121",
+            "cpsc_dept": "cpsc"
+        },
+        {
+            "cpsc_id": "121",
+            "cpsc_dept": "cpsc"
+        },
+        {
+            "cpsc_id": "121",
+            "cpsc_dept": "cpsc"
+        },
+        {
+            "cpsc_id": "121",
+            "cpsc_dept": "cpsc"
+        },
+        {
+            "cpsc_id": "121",
+            "cpsc_dept": "cpsc"
+        },
+        {
+            "cpsc_id": "121",
+            "cpsc_dept": "cpsc"
+        },
+        {
+            "cpsc_id": "121",
+            "cpsc_dept": "cpsc"
+        },
+        {
+            "cpsc_id": "121",
+            "cpsc_dept": "cpsc"
+        },
+        {
+            "cpsc_id": "121",
+            "cpsc_dept": "cpsc"
+        },
+        {
+            "cpsc_id": "121",
+            "cpsc_dept": "cpsc"
+        },
+        {
+            "cpsc_id": "121",
+            "cpsc_dept": "cpsc"
+        },
+        {
+            "cpsc_id": "121",
+            "cpsc_dept": "cpsc"
+        },
+        {
+            "cpsc_id": "121",
+            "cpsc_dept": "cpsc"
+        },
+        {
+            "cpsc_id": "121",
+            "cpsc_dept": "cpsc"
+        },
+        {
+            "cpsc_id": "121",
+            "cpsc_dept": "cpsc"
+        },
+        {
+            "cpsc_id": "121",
+            "cpsc_dept": "cpsc"
+        },
+        {
+            "cpsc_id": "121",
+            "cpsc_dept": "cpsc"
+        },
+        {
+            "cpsc_id": "121",
+            "cpsc_dept": "cpsc"
+        },
+        {
+            "cpsc_id": "121",
+            "cpsc_dept": "cpsc"
+        },
+        {
+            "cpsc_id": "121",
+            "cpsc_dept": "cpsc"
+        },
+        {
+            "cpsc_id": "121",
+            "cpsc_dept": "cpsc"
+        },
+        {
+            "cpsc_id": "121",
+            "cpsc_dept": "cpsc"
+        },
+        {
+            "cpsc_id": "121",
+            "cpsc_dept": "cpsc"
+        },
+        {
+            "cpsc_id": "121",
+            "cpsc_dept": "cpsc"
+        },
+        {
+            "cpsc_id": "121",
+            "cpsc_dept": "cpsc"
+        },
+        {
+            "cpsc_id": "121",
+            "cpsc_dept": "cpsc"
+        },
+        {
+            "cpsc_id": "121",
+            "cpsc_dept": "cpsc"
+        },
+        {
+            "cpsc_id": "121",
+            "cpsc_dept": "cpsc"
+        },
+        {
+            "cpsc_id": "121",
+            "cpsc_dept": "cpsc"
+        },
+        {
+            "cpsc_id": "121",
+            "cpsc_dept": "cpsc"
+        },
+        {
+            "cpsc_id": "121",
+            "cpsc_dept": "cpsc"
+        },
+        {
+            "cpsc_id": "121",
+            "cpsc_dept": "cpsc"
+        },
+        {
+            "cpsc_id": "121",
+            "cpsc_dept": "cpsc"
+        },
+        {
+            "cpsc_id": "121",
+            "cpsc_dept": "cpsc"
+        },
+        {
+            "cpsc_id": "121",
+            "cpsc_dept": "cpsc"
+        },
+        {
+            "cpsc_id": "121",
+            "cpsc_dept": "cpsc"
+        },
+        {
+            "cpsc_id": "210",
+            "cpsc_dept": "cpsc"
+        },
+        {
+            "cpsc_id": "210",
+            "cpsc_dept": "cpsc"
+        },
+        {
+            "cpsc_id": "210",
+            "cpsc_dept": "cpsc"
+        },
+        {
+            "cpsc_id": "210",
+            "cpsc_dept": "cpsc"
+        },
+        {
+            "cpsc_id": "210",
+            "cpsc_dept": "cpsc"
+        },
+        {
+            "cpsc_id": "210",
+            "cpsc_dept": "cpsc"
+        },
+        {
+            "cpsc_id": "210",
+            "cpsc_dept": "cpsc"
+        },
+        {
+            "cpsc_id": "210",
+            "cpsc_dept": "cpsc"
+        },
+        {
+            "cpsc_id": "210",
+            "cpsc_dept": "cpsc"
+        },
+        {
+            "cpsc_id": "210",
+            "cpsc_dept": "cpsc"
+        },
+        {
+            "cpsc_id": "210",
+            "cpsc_dept": "cpsc"
+        },
+        {
+            "cpsc_id": "210",
+            "cpsc_dept": "cpsc"
+        },
+        {
+            "cpsc_id": "210",
+            "cpsc_dept": "cpsc"
+        },
+        {
+            "cpsc_id": "210",
+            "cpsc_dept": "cpsc"
+        },
+        {
+            "cpsc_id": "210",
+            "cpsc_dept": "cpsc"
+        },
+        {
+            "cpsc_id": "210",
+            "cpsc_dept": "cpsc"
+        },
+        {
+            "cpsc_id": "210",
+            "cpsc_dept": "cpsc"
+        },
+        {
+            "cpsc_id": "210",
+            "cpsc_dept": "cpsc"
+        },
+        {
+            "cpsc_id": "210",
+            "cpsc_dept": "cpsc"
+        },
+        {
+            "cpsc_id": "210",
+            "cpsc_dept": "cpsc"
+        },
+        {
+            "cpsc_id": "210",
+            "cpsc_dept": "cpsc"
+        },
+        {
+            "cpsc_id": "210",
+            "cpsc_dept": "cpsc"
+        },
+        {
+            "cpsc_id": "210",
+            "cpsc_dept": "cpsc"
+        },
+        {
+            "cpsc_id": "210",
+            "cpsc_dept": "cpsc"
+        },
+        {
+            "cpsc_id": "210",
+            "cpsc_dept": "cpsc"
+        },
+        {
+            "cpsc_id": "210",
+            "cpsc_dept": "cpsc"
+        },
+        {
+            "cpsc_id": "210",
+            "cpsc_dept": "cpsc"
+        },
+        {
+            "cpsc_id": "210",
+            "cpsc_dept": "cpsc"
+        },
+        {
+            "cpsc_id": "210",
+            "cpsc_dept": "cpsc"
+        },
+        {
+            "cpsc_id": "210",
+            "cpsc_dept": "cpsc"
+        },
+        {
+            "cpsc_id": "210",
+            "cpsc_dept": "cpsc"
+        },
+        {
+            "cpsc_id": "210",
+            "cpsc_dept": "cpsc"
+        },
+        {
+            "cpsc_id": "210",
+            "cpsc_dept": "cpsc"
+        },
+        {
+            "cpsc_id": "210",
+            "cpsc_dept": "cpsc"
+        },
+        {
+            "cpsc_id": "210",
+            "cpsc_dept": "cpsc"
+        },
+        {
+            "cpsc_id": "210",
+            "cpsc_dept": "cpsc"
+        },
+        {
+            "cpsc_id": "210",
+            "cpsc_dept": "cpsc"
+        },
+        {
+            "cpsc_id": "210",
+            "cpsc_dept": "cpsc"
+        },
+        {
+            "cpsc_id": "210",
+            "cpsc_dept": "cpsc"
+        },
+        {
+            "cpsc_id": "210",
+            "cpsc_dept": "cpsc"
+        },
+        {
+            "cpsc_id": "210",
+            "cpsc_dept": "cpsc"
+        },
+        {
+            "cpsc_id": "210",
+            "cpsc_dept": "cpsc"
+        },
+        {
+            "cpsc_id": "210",
+            "cpsc_dept": "cpsc"
+        },
+        {
+            "cpsc_id": "210",
+            "cpsc_dept": "cpsc"
+        },
+        {
+            "cpsc_id": "210",
+            "cpsc_dept": "cpsc"
+        },
+        {
+            "cpsc_id": "210",
+            "cpsc_dept": "cpsc"
+        },
+        {
+            "cpsc_id": "213",
+            "cpsc_dept": "cpsc"
+        },
+        {
+            "cpsc_id": "213",
+            "cpsc_dept": "cpsc"
+        },
+        {
+            "cpsc_id": "213",
+            "cpsc_dept": "cpsc"
+        },
+        {
+            "cpsc_id": "213",
+            "cpsc_dept": "cpsc"
+        },
+        {
+            "cpsc_id": "213",
+            "cpsc_dept": "cpsc"
+        },
+        {
+            "cpsc_id": "213",
+            "cpsc_dept": "cpsc"
+        },
+        {
+            "cpsc_id": "213",
+            "cpsc_dept": "cpsc"
+        },
+        {
+            "cpsc_id": "213",
+            "cpsc_dept": "cpsc"
+        },
+        {
+            "cpsc_id": "213",
+            "cpsc_dept": "cpsc"
+        },
+        {
+            "cpsc_id": "213",
+            "cpsc_dept": "cpsc"
+        },
+        {
+            "cpsc_id": "213",
+            "cpsc_dept": "cpsc"
+        },
+        {
+            "cpsc_id": "213",
+            "cpsc_dept": "cpsc"
+        },
+        {
+            "cpsc_id": "213",
+            "cpsc_dept": "cpsc"
+        },
+        {
+            "cpsc_id": "213",
+            "cpsc_dept": "cpsc"
+        },
+        {
+            "cpsc_id": "213",
+            "cpsc_dept": "cpsc"
+        },
+        {
+            "cpsc_id": "213",
+            "cpsc_dept": "cpsc"
+        },
+        {
+            "cpsc_id": "213",
+            "cpsc_dept": "cpsc"
+        },
+        {
+            "cpsc_id": "213",
+            "cpsc_dept": "cpsc"
+        },
+        {
+            "cpsc_id": "213",
+            "cpsc_dept": "cpsc"
+        },
+        {
+            "cpsc_id": "213",
+            "cpsc_dept": "cpsc"
+        },
+        {
+            "cpsc_id": "213",
+            "cpsc_dept": "cpsc"
+        },
+        {
+            "cpsc_id": "213",
+            "cpsc_dept": "cpsc"
+        },
+        {
+            "cpsc_id": "213",
+            "cpsc_dept": "cpsc"
+        },
+        {
+            "cpsc_id": "213",
+            "cpsc_dept": "cpsc"
+        },
+        {
+            "cpsc_id": "213",
+            "cpsc_dept": "cpsc"
+        },
+        {
+            "cpsc_id": "213",
+            "cpsc_dept": "cpsc"
+        },
+        {
+            "cpsc_id": "213",
+            "cpsc_dept": "cpsc"
+        },
+        {
+            "cpsc_id": "213",
+            "cpsc_dept": "cpsc"
+        },
+        {
+            "cpsc_id": "213",
+            "cpsc_dept": "cpsc"
+        },
+        {
+            "cpsc_id": "213",
+            "cpsc_dept": "cpsc"
+        },
+        {
+            "cpsc_id": "213",
+            "cpsc_dept": "cpsc"
+        },
+        {
+            "cpsc_id": "213",
+            "cpsc_dept": "cpsc"
+        },
+        {
+            "cpsc_id": "213",
+            "cpsc_dept": "cpsc"
+        },
+        {
+            "cpsc_id": "213",
+            "cpsc_dept": "cpsc"
+        },
+        {
+            "cpsc_id": "213",
+            "cpsc_dept": "cpsc"
+        },
+        {
+            "cpsc_id": "213",
+            "cpsc_dept": "cpsc"
+        },
+        {
+            "cpsc_id": "213",
+            "cpsc_dept": "cpsc"
+        },
+        {
+            "cpsc_id": "213",
+            "cpsc_dept": "cpsc"
+        },
+        {
+            "cpsc_id": "213",
+            "cpsc_dept": "cpsc"
+        },
+        {
+            "cpsc_id": "213",
+            "cpsc_dept": "cpsc"
+        },
+        {
+            "cpsc_id": "213",
+            "cpsc_dept": "cpsc"
+        },
+        {
+            "cpsc_id": "213",
+            "cpsc_dept": "cpsc"
+        },
+        {
+            "cpsc_id": "213",
+            "cpsc_dept": "cpsc"
+        },
+        {
+            "cpsc_id": "221",
+            "cpsc_dept": "cpsc"
+        },
+        {
+            "cpsc_id": "221",
+            "cpsc_dept": "cpsc"
+        },
+        {
+            "cpsc_id": "221",
+            "cpsc_dept": "cpsc"
+        },
+        {
+            "cpsc_id": "221",
+            "cpsc_dept": "cpsc"
+        },
+        {
+            "cpsc_id": "221",
+            "cpsc_dept": "cpsc"
+        },
+        {
+            "cpsc_id": "221",
+            "cpsc_dept": "cpsc"
+        },
+        {
+            "cpsc_id": "221",
+            "cpsc_dept": "cpsc"
+        },
+        {
+            "cpsc_id": "221",
+            "cpsc_dept": "cpsc"
+        },
+        {
+            "cpsc_id": "221",
+            "cpsc_dept": "cpsc"
+        },
+        {
+            "cpsc_id": "221",
+            "cpsc_dept": "cpsc"
+        },
+        {
+            "cpsc_id": "221",
+            "cpsc_dept": "cpsc"
+        },
+        {
+            "cpsc_id": "221",
+            "cpsc_dept": "cpsc"
+        },
+        {
+            "cpsc_id": "221",
+            "cpsc_dept": "cpsc"
+        },
+        {
+            "cpsc_id": "221",
+            "cpsc_dept": "cpsc"
+        },
+        {
+            "cpsc_id": "221",
+            "cpsc_dept": "cpsc"
+        },
+        {
+            "cpsc_id": "221",
+            "cpsc_dept": "cpsc"
+        },
+        {
+            "cpsc_id": "221",
+            "cpsc_dept": "cpsc"
+        },
+        {
+            "cpsc_id": "221",
+            "cpsc_dept": "cpsc"
+        },
+        {
+            "cpsc_id": "221",
+            "cpsc_dept": "cpsc"
+        },
+        {
+            "cpsc_id": "221",
+            "cpsc_dept": "cpsc"
+        },
+        {
+            "cpsc_id": "221",
+            "cpsc_dept": "cpsc"
+        },
+        {
+            "cpsc_id": "221",
+            "cpsc_dept": "cpsc"
+        },
+        {
+            "cpsc_id": "221",
+            "cpsc_dept": "cpsc"
+        },
+        {
+            "cpsc_id": "221",
+            "cpsc_dept": "cpsc"
+        },
+        {
+            "cpsc_id": "221",
+            "cpsc_dept": "cpsc"
+        },
+        {
+            "cpsc_id": "221",
+            "cpsc_dept": "cpsc"
+        },
+        {
+            "cpsc_id": "221",
+            "cpsc_dept": "cpsc"
+        },
+        {
+            "cpsc_id": "221",
+            "cpsc_dept": "cpsc"
+        },
+        {
+            "cpsc_id": "221",
+            "cpsc_dept": "cpsc"
+        },
+        {
+            "cpsc_id": "221",
+            "cpsc_dept": "cpsc"
+        },
+        {
+            "cpsc_id": "221",
+            "cpsc_dept": "cpsc"
+        },
+        {
+            "cpsc_id": "221",
+            "cpsc_dept": "cpsc"
+        },
+        {
+            "cpsc_id": "221",
+            "cpsc_dept": "cpsc"
+        },
+        {
+            "cpsc_id": "221",
+            "cpsc_dept": "cpsc"
+        },
+        {
+            "cpsc_id": "221",
+            "cpsc_dept": "cpsc"
+        },
+        {
+            "cpsc_id": "221",
+            "cpsc_dept": "cpsc"
+        },
+        {
+            "cpsc_id": "221",
+            "cpsc_dept": "cpsc"
+        },
+        {
+            "cpsc_id": "221",
+            "cpsc_dept": "cpsc"
+        },
+        {
+            "cpsc_id": "221",
+            "cpsc_dept": "cpsc"
+        },
+        {
+            "cpsc_id": "221",
+            "cpsc_dept": "cpsc"
+        },
+        {
+            "cpsc_id": "221",
+            "cpsc_dept": "cpsc"
+        },
+        {
+            "cpsc_id": "221",
+            "cpsc_dept": "cpsc"
+        },
+        {
+            "cpsc_id": "221",
+            "cpsc_dept": "cpsc"
+        },
+        {
+            "cpsc_id": "221",
+            "cpsc_dept": "cpsc"
+        },
+        {
+            "cpsc_id": "221",
+            "cpsc_dept": "cpsc"
+        },
+        {
+            "cpsc_id": "221",
+            "cpsc_dept": "cpsc"
+        },
+        {
+            "cpsc_id": "221",
+            "cpsc_dept": "cpsc"
+        },
+        {
+            "cpsc_id": "221",
+            "cpsc_dept": "cpsc"
+        },
+        {
+            "cpsc_id": "221",
+            "cpsc_dept": "cpsc"
+        },
+        {
+            "cpsc_id": "221",
+            "cpsc_dept": "cpsc"
+        },
+        {
+            "cpsc_id": "221",
+            "cpsc_dept": "cpsc"
+        },
+        {
+            "cpsc_id": "221",
+            "cpsc_dept": "cpsc"
+        },
+        {
+            "cpsc_id": "259",
+            "cpsc_dept": "cpsc"
+        },
+        {
+            "cpsc_id": "259",
+            "cpsc_dept": "cpsc"
+        },
+        {
+            "cpsc_id": "259",
+            "cpsc_dept": "cpsc"
+        },
+        {
+            "cpsc_id": "259",
+            "cpsc_dept": "cpsc"
+        },
+        {
+            "cpsc_id": "259",
+            "cpsc_dept": "cpsc"
+        },
+        {
+            "cpsc_id": "259",
+            "cpsc_dept": "cpsc"
+        },
+        {
+            "cpsc_id": "259",
+            "cpsc_dept": "cpsc"
+        },
+        {
+            "cpsc_id": "259",
+            "cpsc_dept": "cpsc"
+        },
+        {
+            "cpsc_id": "259",
+            "cpsc_dept": "cpsc"
+        },
+        {
+            "cpsc_id": "259",
+            "cpsc_dept": "cpsc"
+        },
+        {
+            "cpsc_id": "261",
+            "cpsc_dept": "cpsc"
+        },
+        {
+            "cpsc_id": "261",
+            "cpsc_dept": "cpsc"
+        },
+        {
+            "cpsc_id": "261",
+            "cpsc_dept": "cpsc"
+        },
+        {
+            "cpsc_id": "261",
+            "cpsc_dept": "cpsc"
+        },
+        {
+            "cpsc_id": "261",
+            "cpsc_dept": "cpsc"
+        },
+        {
+            "cpsc_id": "261",
+            "cpsc_dept": "cpsc"
+        },
+        {
+            "cpsc_id": "261",
+            "cpsc_dept": "cpsc"
+        },
+        {
+            "cpsc_id": "261",
+            "cpsc_dept": "cpsc"
+        },
+        {
+            "cpsc_id": "301",
+            "cpsc_dept": "cpsc"
+        },
+        {
+            "cpsc_id": "301",
+            "cpsc_dept": "cpsc"
+        },
+        {
+            "cpsc_id": "301",
+            "cpsc_dept": "cpsc"
+        },
+        {
+            "cpsc_id": "301",
+            "cpsc_dept": "cpsc"
+        },
+        {
+            "cpsc_id": "301",
+            "cpsc_dept": "cpsc"
+        },
+        {
+            "cpsc_id": "301",
+            "cpsc_dept": "cpsc"
+        },
+        {
+            "cpsc_id": "301",
+            "cpsc_dept": "cpsc"
+        },
+        {
+            "cpsc_id": "301",
+            "cpsc_dept": "cpsc"
+        },
+        {
+            "cpsc_id": "301",
+            "cpsc_dept": "cpsc"
+        },
+        {
+            "cpsc_id": "301",
+            "cpsc_dept": "cpsc"
+        },
+        {
+            "cpsc_id": "301",
+            "cpsc_dept": "cpsc"
+        },
+        {
+            "cpsc_id": "301",
+            "cpsc_dept": "cpsc"
+        },
+        {
+            "cpsc_id": "301",
+            "cpsc_dept": "cpsc"
+        },
+        {
+            "cpsc_id": "301",
+            "cpsc_dept": "cpsc"
+        },
+        {
+            "cpsc_id": "302",
+            "cpsc_dept": "cpsc"
+        },
+        {
+            "cpsc_id": "302",
+            "cpsc_dept": "cpsc"
+        },
+        {
+            "cpsc_id": "302",
+            "cpsc_dept": "cpsc"
+        },
+        {
+            "cpsc_id": "302",
+            "cpsc_dept": "cpsc"
+        },
+        {
+            "cpsc_id": "302",
+            "cpsc_dept": "cpsc"
+        },
+        {
+            "cpsc_id": "302",
+            "cpsc_dept": "cpsc"
+        },
+        {
+            "cpsc_id": "302",
+            "cpsc_dept": "cpsc"
+        },
+        {
+            "cpsc_id": "302",
+            "cpsc_dept": "cpsc"
+        },
+        {
+            "cpsc_id": "302",
+            "cpsc_dept": "cpsc"
+        },
+        {
+            "cpsc_id": "302",
+            "cpsc_dept": "cpsc"
+        },
+        {
+            "cpsc_id": "302",
+            "cpsc_dept": "cpsc"
+        },
+        {
+            "cpsc_id": "302",
+            "cpsc_dept": "cpsc"
+        },
+        {
+            "cpsc_id": "302",
+            "cpsc_dept": "cpsc"
+        },
+        {
+            "cpsc_id": "302",
+            "cpsc_dept": "cpsc"
+        },
+        {
+            "cpsc_id": "302",
+            "cpsc_dept": "cpsc"
+        },
+        {
+            "cpsc_id": "302",
+            "cpsc_dept": "cpsc"
+        },
+        {
+            "cpsc_id": "302",
+            "cpsc_dept": "cpsc"
+        },
+        {
+            "cpsc_id": "302",
+            "cpsc_dept": "cpsc"
+        },
+        {
+            "cpsc_id": "303",
+            "cpsc_dept": "cpsc"
+        },
+        {
+            "cpsc_id": "303",
+            "cpsc_dept": "cpsc"
+        },
+        {
+            "cpsc_id": "303",
+            "cpsc_dept": "cpsc"
+        },
+        {
+            "cpsc_id": "303",
+            "cpsc_dept": "cpsc"
+        },
+        {
+            "cpsc_id": "303",
+            "cpsc_dept": "cpsc"
+        },
+        {
+            "cpsc_id": "303",
+            "cpsc_dept": "cpsc"
+        },
+        {
+            "cpsc_id": "303",
+            "cpsc_dept": "cpsc"
+        },
+        {
+            "cpsc_id": "303",
+            "cpsc_dept": "cpsc"
+        },
+        {
+            "cpsc_id": "303",
+            "cpsc_dept": "cpsc"
+        },
+        {
+            "cpsc_id": "303",
+            "cpsc_dept": "cpsc"
+        },
+        {
+            "cpsc_id": "303",
+            "cpsc_dept": "cpsc"
+        },
+        {
+            "cpsc_id": "303",
+            "cpsc_dept": "cpsc"
+        },
+        {
+            "cpsc_id": "303",
+            "cpsc_dept": "cpsc"
+        },
+        {
+            "cpsc_id": "303",
+            "cpsc_dept": "cpsc"
+        },
+        {
+            "cpsc_id": "303",
+            "cpsc_dept": "cpsc"
+        },
+        {
+            "cpsc_id": "303",
+            "cpsc_dept": "cpsc"
+        },
+        {
+            "cpsc_id": "303",
+            "cpsc_dept": "cpsc"
+        },
+        {
+            "cpsc_id": "303",
+            "cpsc_dept": "cpsc"
+        },
+        {
+            "cpsc_id": "304",
+            "cpsc_dept": "cpsc"
+        },
+        {
+            "cpsc_id": "304",
+            "cpsc_dept": "cpsc"
+        },
+        {
+            "cpsc_id": "304",
+            "cpsc_dept": "cpsc"
+        },
+        {
+            "cpsc_id": "304",
+            "cpsc_dept": "cpsc"
+        },
+        {
+            "cpsc_id": "304",
+            "cpsc_dept": "cpsc"
+        },
+        {
+            "cpsc_id": "304",
+            "cpsc_dept": "cpsc"
+        },
+        {
+            "cpsc_id": "304",
+            "cpsc_dept": "cpsc"
+        },
+        {
+            "cpsc_id": "304",
+            "cpsc_dept": "cpsc"
+        },
+        {
+            "cpsc_id": "304",
+            "cpsc_dept": "cpsc"
+        },
+        {
+            "cpsc_id": "304",
+            "cpsc_dept": "cpsc"
+        },
+        {
+            "cpsc_id": "304",
+            "cpsc_dept": "cpsc"
+        },
+        {
+            "cpsc_id": "304",
+            "cpsc_dept": "cpsc"
+        },
+        {
+            "cpsc_id": "304",
+            "cpsc_dept": "cpsc"
+        },
+        {
+            "cpsc_id": "304",
+            "cpsc_dept": "cpsc"
+        },
+        {
+            "cpsc_id": "304",
+            "cpsc_dept": "cpsc"
+        },
+        {
+            "cpsc_id": "304",
+            "cpsc_dept": "cpsc"
+        },
+        {
+            "cpsc_id": "304",
+            "cpsc_dept": "cpsc"
+        },
+        {
+            "cpsc_id": "304",
+            "cpsc_dept": "cpsc"
+        },
+        {
+            "cpsc_id": "304",
+            "cpsc_dept": "cpsc"
+        },
+        {
+            "cpsc_id": "304",
+            "cpsc_dept": "cpsc"
+        },
+        {
+            "cpsc_id": "304",
+            "cpsc_dept": "cpsc"
+        },
+        {
+            "cpsc_id": "304",
+            "cpsc_dept": "cpsc"
+        },
+        {
+            "cpsc_id": "304",
+            "cpsc_dept": "cpsc"
+        },
+        {
+            "cpsc_id": "304",
+            "cpsc_dept": "cpsc"
+        },
+        {
+            "cpsc_id": "304",
+            "cpsc_dept": "cpsc"
+        },
+        {
+            "cpsc_id": "304",
+            "cpsc_dept": "cpsc"
+        },
+        {
+            "cpsc_id": "304",
+            "cpsc_dept": "cpsc"
+        },
+        {
+            "cpsc_id": "304",
+            "cpsc_dept": "cpsc"
+        },
+        {
+            "cpsc_id": "304",
+            "cpsc_dept": "cpsc"
+        },
+        {
+            "cpsc_id": "304",
+            "cpsc_dept": "cpsc"
+        },
+        {
+            "cpsc_id": "304",
+            "cpsc_dept": "cpsc"
+        },
+        {
+            "cpsc_id": "304",
+            "cpsc_dept": "cpsc"
+        },
+        {
+            "cpsc_id": "304",
+            "cpsc_dept": "cpsc"
+        },
+        {
+            "cpsc_id": "304",
+            "cpsc_dept": "cpsc"
+        },
+        {
+            "cpsc_id": "304",
+            "cpsc_dept": "cpsc"
+        },
+        {
+            "cpsc_id": "304",
+            "cpsc_dept": "cpsc"
+        },
+        {
+            "cpsc_id": "304",
+            "cpsc_dept": "cpsc"
+        },
+        {
+            "cpsc_id": "304",
+            "cpsc_dept": "cpsc"
+        },
+        {
+            "cpsc_id": "304",
+            "cpsc_dept": "cpsc"
+        },
+        {
+            "cpsc_id": "304",
+            "cpsc_dept": "cpsc"
+        },
+        {
+            "cpsc_id": "304",
+            "cpsc_dept": "cpsc"
+        },
+        {
+            "cpsc_id": "310",
+            "cpsc_dept": "cpsc"
+        },
+        {
+            "cpsc_id": "310",
+            "cpsc_dept": "cpsc"
+        },
+        {
+            "cpsc_id": "310",
+            "cpsc_dept": "cpsc"
+        },
+        {
+            "cpsc_id": "310",
+            "cpsc_dept": "cpsc"
+        },
+        {
+            "cpsc_id": "310",
+            "cpsc_dept": "cpsc"
+        },
+        {
+            "cpsc_id": "310",
+            "cpsc_dept": "cpsc"
+        },
+        {
+            "cpsc_id": "310",
+            "cpsc_dept": "cpsc"
+        },
+        {
+            "cpsc_id": "310",
+            "cpsc_dept": "cpsc"
+        },
+        {
+            "cpsc_id": "310",
+            "cpsc_dept": "cpsc"
+        },
+        {
+            "cpsc_id": "310",
+            "cpsc_dept": "cpsc"
+        },
+        {
+            "cpsc_id": "310",
+            "cpsc_dept": "cpsc"
+        },
+        {
+            "cpsc_id": "310",
+            "cpsc_dept": "cpsc"
+        },
+        {
+            "cpsc_id": "310",
+            "cpsc_dept": "cpsc"
+        },
+        {
+            "cpsc_id": "310",
+            "cpsc_dept": "cpsc"
+        },
+        {
+            "cpsc_id": "310",
+            "cpsc_dept": "cpsc"
+        },
+        {
+            "cpsc_id": "310",
+            "cpsc_dept": "cpsc"
+        },
+        {
+            "cpsc_id": "310",
+            "cpsc_dept": "cpsc"
+        },
+        {
+            "cpsc_id": "310",
+            "cpsc_dept": "cpsc"
+        },
+        {
+            "cpsc_id": "310",
+            "cpsc_dept": "cpsc"
+        },
+        {
+            "cpsc_id": "310",
+            "cpsc_dept": "cpsc"
+        },
+        {
+            "cpsc_id": "310",
+            "cpsc_dept": "cpsc"
+        },
+        {
+            "cpsc_id": "310",
+            "cpsc_dept": "cpsc"
+        },
+        {
+            "cpsc_id": "310",
+            "cpsc_dept": "cpsc"
+        },
+        {
+            "cpsc_id": "310",
+            "cpsc_dept": "cpsc"
+        },
+        {
+            "cpsc_id": "310",
+            "cpsc_dept": "cpsc"
+        },
+        {
+            "cpsc_id": "310",
+            "cpsc_dept": "cpsc"
+        },
+        {
+            "cpsc_id": "310",
+            "cpsc_dept": "cpsc"
+        },
+        {
+            "cpsc_id": "310",
+            "cpsc_dept": "cpsc"
+        },
+        {
+            "cpsc_id": "310",
+            "cpsc_dept": "cpsc"
+        },
+        {
+            "cpsc_id": "310",
+            "cpsc_dept": "cpsc"
+        },
+        {
+            "cpsc_id": "310",
+            "cpsc_dept": "cpsc"
+        },
+        {
+            "cpsc_id": "310",
+            "cpsc_dept": "cpsc"
+        },
+        {
+            "cpsc_id": "310",
+            "cpsc_dept": "cpsc"
+        },
+        {
+            "cpsc_id": "310",
+            "cpsc_dept": "cpsc"
+        },
+        {
+            "cpsc_id": "310",
+            "cpsc_dept": "cpsc"
+        },
+        {
+            "cpsc_id": "310",
+            "cpsc_dept": "cpsc"
+        },
+        {
+            "cpsc_id": "310",
+            "cpsc_dept": "cpsc"
+        },
+        {
+            "cpsc_id": "310",
+            "cpsc_dept": "cpsc"
+        },
+        {
+            "cpsc_id": "310",
+            "cpsc_dept": "cpsc"
+        },
+        {
+            "cpsc_id": "311",
+            "cpsc_dept": "cpsc"
+        },
+        {
+            "cpsc_id": "311",
+            "cpsc_dept": "cpsc"
+        },
+        {
+            "cpsc_id": "311",
+            "cpsc_dept": "cpsc"
+        },
+        {
+            "cpsc_id": "311",
+            "cpsc_dept": "cpsc"
+        },
+        {
+            "cpsc_id": "311",
+            "cpsc_dept": "cpsc"
+        },
+        {
+            "cpsc_id": "311",
+            "cpsc_dept": "cpsc"
+        },
+        {
+            "cpsc_id": "311",
+            "cpsc_dept": "cpsc"
+        },
+        {
+            "cpsc_id": "311",
+            "cpsc_dept": "cpsc"
+        },
+        {
+            "cpsc_id": "311",
+            "cpsc_dept": "cpsc"
+        },
+        {
+            "cpsc_id": "311",
+            "cpsc_dept": "cpsc"
+        },
+        {
+            "cpsc_id": "311",
+            "cpsc_dept": "cpsc"
+        },
+        {
+            "cpsc_id": "311",
+            "cpsc_dept": "cpsc"
+        },
+        {
+            "cpsc_id": "311",
+            "cpsc_dept": "cpsc"
+        },
+        {
+            "cpsc_id": "311",
+            "cpsc_dept": "cpsc"
+        },
+        {
+            "cpsc_id": "311",
+            "cpsc_dept": "cpsc"
+        },
+        {
+            "cpsc_id": "311",
+            "cpsc_dept": "cpsc"
+        },
+        {
+            "cpsc_id": "311",
+            "cpsc_dept": "cpsc"
+        },
+        {
+            "cpsc_id": "311",
+            "cpsc_dept": "cpsc"
+        },
+        {
+            "cpsc_id": "312",
+            "cpsc_dept": "cpsc"
+        },
+        {
+            "cpsc_id": "312",
+            "cpsc_dept": "cpsc"
+        },
+        {
+            "cpsc_id": "312",
+            "cpsc_dept": "cpsc"
+        },
+        {
+            "cpsc_id": "312",
+            "cpsc_dept": "cpsc"
+        },
+        {
+            "cpsc_id": "312",
+            "cpsc_dept": "cpsc"
+        },
+        {
+            "cpsc_id": "312",
+            "cpsc_dept": "cpsc"
+        },
+        {
+            "cpsc_id": "312",
+            "cpsc_dept": "cpsc"
+        },
+        {
+            "cpsc_id": "312",
+            "cpsc_dept": "cpsc"
+        },
+        {
+            "cpsc_id": "312",
+            "cpsc_dept": "cpsc"
+        },
+        {
+            "cpsc_id": "312",
+            "cpsc_dept": "cpsc"
+        },
+        {
+            "cpsc_id": "312",
+            "cpsc_dept": "cpsc"
+        },
+        {
+            "cpsc_id": "312",
+            "cpsc_dept": "cpsc"
+        },
+        {
+            "cpsc_id": "312",
+            "cpsc_dept": "cpsc"
+        },
+        {
+            "cpsc_id": "312",
+            "cpsc_dept": "cpsc"
+        },
+        {
+            "cpsc_id": "312",
+            "cpsc_dept": "cpsc"
+        },
+        {
+            "cpsc_id": "312",
+            "cpsc_dept": "cpsc"
+        },
+        {
+            "cpsc_id": "312",
+            "cpsc_dept": "cpsc"
+        },
+        {
+            "cpsc_id": "312",
+            "cpsc_dept": "cpsc"
+        },
+        {
+            "cpsc_id": "312",
+            "cpsc_dept": "cpsc"
+        },
+        {
+            "cpsc_id": "312",
+            "cpsc_dept": "cpsc"
+        },
+        {
+            "cpsc_id": "313",
+            "cpsc_dept": "cpsc"
+        },
+        {
+            "cpsc_id": "313",
+            "cpsc_dept": "cpsc"
+        },
+        {
+            "cpsc_id": "313",
+            "cpsc_dept": "cpsc"
+        },
+        {
+            "cpsc_id": "313",
+            "cpsc_dept": "cpsc"
+        },
+        {
+            "cpsc_id": "313",
+            "cpsc_dept": "cpsc"
+        },
+        {
+            "cpsc_id": "313",
+            "cpsc_dept": "cpsc"
+        },
+        {
+            "cpsc_id": "313",
+            "cpsc_dept": "cpsc"
+        },
+        {
+            "cpsc_id": "313",
+            "cpsc_dept": "cpsc"
+        },
+        {
+            "cpsc_id": "313",
+            "cpsc_dept": "cpsc"
+        },
+        {
+            "cpsc_id": "313",
+            "cpsc_dept": "cpsc"
+        },
+        {
+            "cpsc_id": "313",
+            "cpsc_dept": "cpsc"
+        },
+        {
+            "cpsc_id": "313",
+            "cpsc_dept": "cpsc"
+        },
+        {
+            "cpsc_id": "313",
+            "cpsc_dept": "cpsc"
+        },
+        {
+            "cpsc_id": "313",
+            "cpsc_dept": "cpsc"
+        },
+        {
+            "cpsc_id": "313",
+            "cpsc_dept": "cpsc"
+        },
+        {
+            "cpsc_id": "313",
+            "cpsc_dept": "cpsc"
+        },
+        {
+            "cpsc_id": "313",
+            "cpsc_dept": "cpsc"
+        },
+        {
+            "cpsc_id": "313",
+            "cpsc_dept": "cpsc"
+        },
+        {
+            "cpsc_id": "313",
+            "cpsc_dept": "cpsc"
+        },
+        {
+            "cpsc_id": "313",
+            "cpsc_dept": "cpsc"
+        },
+        {
+            "cpsc_id": "313",
+            "cpsc_dept": "cpsc"
+        },
+        {
+            "cpsc_id": "313",
+            "cpsc_dept": "cpsc"
+        },
+        {
+            "cpsc_id": "313",
+            "cpsc_dept": "cpsc"
+        },
+        {
+            "cpsc_id": "313",
+            "cpsc_dept": "cpsc"
+        },
+        {
+            "cpsc_id": "313",
+            "cpsc_dept": "cpsc"
+        },
+        {
+            "cpsc_id": "313",
+            "cpsc_dept": "cpsc"
+        },
+        {
+            "cpsc_id": "313",
+            "cpsc_dept": "cpsc"
+        },
+        {
+            "cpsc_id": "313",
+            "cpsc_dept": "cpsc"
+        },
+        {
+            "cpsc_id": "313",
+            "cpsc_dept": "cpsc"
+        },
+        {
+            "cpsc_id": "313",
+            "cpsc_dept": "cpsc"
+        },
+        {
+            "cpsc_id": "313",
+            "cpsc_dept": "cpsc"
+        },
+        {
+            "cpsc_id": "313",
+            "cpsc_dept": "cpsc"
+        },
+        {
+            "cpsc_id": "313",
+            "cpsc_dept": "cpsc"
+        },
+        {
+            "cpsc_id": "313",
+            "cpsc_dept": "cpsc"
+        },
+        {
+            "cpsc_id": "313",
+            "cpsc_dept": "cpsc"
+        },
+        {
+            "cpsc_id": "314",
+            "cpsc_dept": "cpsc"
+        },
+        {
+            "cpsc_id": "314",
+            "cpsc_dept": "cpsc"
+        },
+        {
+            "cpsc_id": "314",
+            "cpsc_dept": "cpsc"
+        },
+        {
+            "cpsc_id": "314",
+            "cpsc_dept": "cpsc"
+        },
+        {
+            "cpsc_id": "314",
+            "cpsc_dept": "cpsc"
+        },
+        {
+            "cpsc_id": "314",
+            "cpsc_dept": "cpsc"
+        },
+        {
+            "cpsc_id": "314",
+            "cpsc_dept": "cpsc"
+        },
+        {
+            "cpsc_id": "314",
+            "cpsc_dept": "cpsc"
+        },
+        {
+            "cpsc_id": "314",
+            "cpsc_dept": "cpsc"
+        },
+        {
+            "cpsc_id": "314",
+            "cpsc_dept": "cpsc"
+        },
+        {
+            "cpsc_id": "314",
+            "cpsc_dept": "cpsc"
+        },
+        {
+            "cpsc_id": "314",
+            "cpsc_dept": "cpsc"
+        },
+        {
+            "cpsc_id": "314",
+            "cpsc_dept": "cpsc"
+        },
+        {
+            "cpsc_id": "314",
+            "cpsc_dept": "cpsc"
+        },
+        {
+            "cpsc_id": "314",
+            "cpsc_dept": "cpsc"
+        },
+        {
+            "cpsc_id": "314",
+            "cpsc_dept": "cpsc"
+        },
+        {
+            "cpsc_id": "314",
+            "cpsc_dept": "cpsc"
+        },
+        {
+            "cpsc_id": "314",
+            "cpsc_dept": "cpsc"
+        },
+        {
+            "cpsc_id": "314",
+            "cpsc_dept": "cpsc"
+        },
+        {
+            "cpsc_id": "314",
+            "cpsc_dept": "cpsc"
+        },
+        {
+            "cpsc_id": "314",
+            "cpsc_dept": "cpsc"
+        },
+        {
+            "cpsc_id": "314",
+            "cpsc_dept": "cpsc"
+        },
+        {
+            "cpsc_id": "314",
+            "cpsc_dept": "cpsc"
+        },
+        {
+            "cpsc_id": "314",
+            "cpsc_dept": "cpsc"
+        },
+        {
+            "cpsc_id": "314",
+            "cpsc_dept": "cpsc"
+        },
+        {
+            "cpsc_id": "314",
+            "cpsc_dept": "cpsc"
+        },
+        {
+            "cpsc_id": "314",
+            "cpsc_dept": "cpsc"
+        },
+        {
+            "cpsc_id": "317",
+            "cpsc_dept": "cpsc"
+        },
+        {
+            "cpsc_id": "317",
+            "cpsc_dept": "cpsc"
+        },
+        {
+            "cpsc_id": "317",
+            "cpsc_dept": "cpsc"
+        },
+        {
+            "cpsc_id": "317",
+            "cpsc_dept": "cpsc"
+        },
+        {
+            "cpsc_id": "317",
+            "cpsc_dept": "cpsc"
+        },
+        {
+            "cpsc_id": "317",
+            "cpsc_dept": "cpsc"
+        },
+        {
+            "cpsc_id": "317",
+            "cpsc_dept": "cpsc"
+        },
+        {
+            "cpsc_id": "317",
+            "cpsc_dept": "cpsc"
+        },
+        {
+            "cpsc_id": "317",
+            "cpsc_dept": "cpsc"
+        },
+        {
+            "cpsc_id": "317",
+            "cpsc_dept": "cpsc"
+        },
+        {
+            "cpsc_id": "317",
+            "cpsc_dept": "cpsc"
+        },
+        {
+            "cpsc_id": "317",
+            "cpsc_dept": "cpsc"
+        },
+        {
+            "cpsc_id": "317",
+            "cpsc_dept": "cpsc"
+        },
+        {
+            "cpsc_id": "317",
+            "cpsc_dept": "cpsc"
+        },
+        {
+            "cpsc_id": "317",
+            "cpsc_dept": "cpsc"
+        },
+        {
+            "cpsc_id": "317",
+            "cpsc_dept": "cpsc"
+        },
+        {
+            "cpsc_id": "317",
+            "cpsc_dept": "cpsc"
+        },
+        {
+            "cpsc_id": "317",
+            "cpsc_dept": "cpsc"
+        },
+        {
+            "cpsc_id": "317",
+            "cpsc_dept": "cpsc"
+        },
+        {
+            "cpsc_id": "317",
+            "cpsc_dept": "cpsc"
+        },
+        {
+            "cpsc_id": "317",
+            "cpsc_dept": "cpsc"
+        },
+        {
+            "cpsc_id": "317",
+            "cpsc_dept": "cpsc"
+        },
+        {
+            "cpsc_id": "317",
+            "cpsc_dept": "cpsc"
+        },
+        {
+            "cpsc_id": "317",
+            "cpsc_dept": "cpsc"
+        },
+        {
+            "cpsc_id": "317",
+            "cpsc_dept": "cpsc"
+        },
+        {
+            "cpsc_id": "317",
+            "cpsc_dept": "cpsc"
+        },
+        {
+            "cpsc_id": "317",
+            "cpsc_dept": "cpsc"
+        },
+        {
+            "cpsc_id": "319",
+            "cpsc_dept": "cpsc"
+        },
+        {
+            "cpsc_id": "319",
+            "cpsc_dept": "cpsc"
+        },
+        {
+            "cpsc_id": "319",
+            "cpsc_dept": "cpsc"
+        },
+        {
+            "cpsc_id": "319",
+            "cpsc_dept": "cpsc"
+        },
+        {
+            "cpsc_id": "319",
+            "cpsc_dept": "cpsc"
+        },
+        {
+            "cpsc_id": "319",
+            "cpsc_dept": "cpsc"
+        },
+        {
+            "cpsc_id": "319",
+            "cpsc_dept": "cpsc"
+        },
+        {
+            "cpsc_id": "319",
+            "cpsc_dept": "cpsc"
+        },
+        {
+            "cpsc_id": "319",
+            "cpsc_dept": "cpsc"
+        },
+        {
+            "cpsc_id": "319",
+            "cpsc_dept": "cpsc"
+        },
+        {
+            "cpsc_id": "319",
+            "cpsc_dept": "cpsc"
+        },
+        {
+            "cpsc_id": "319",
+            "cpsc_dept": "cpsc"
+        },
+        {
+            "cpsc_id": "319",
+            "cpsc_dept": "cpsc"
+        },
+        {
+            "cpsc_id": "319",
+            "cpsc_dept": "cpsc"
+        },
+        {
+            "cpsc_id": "319",
+            "cpsc_dept": "cpsc"
+        },
+        {
+            "cpsc_id": "319",
+            "cpsc_dept": "cpsc"
+        },
+        {
+            "cpsc_id": "319",
+            "cpsc_dept": "cpsc"
+        },
+        {
+            "cpsc_id": "319",
+            "cpsc_dept": "cpsc"
+        },
+        {
+            "cpsc_id": "320",
+            "cpsc_dept": "cpsc"
+        },
+        {
+            "cpsc_id": "320",
+            "cpsc_dept": "cpsc"
+        },
+        {
+            "cpsc_id": "320",
+            "cpsc_dept": "cpsc"
+        },
+        {
+            "cpsc_id": "320",
+            "cpsc_dept": "cpsc"
+        },
+        {
+            "cpsc_id": "320",
+            "cpsc_dept": "cpsc"
+        },
+        {
+            "cpsc_id": "320",
+            "cpsc_dept": "cpsc"
+        },
+        {
+            "cpsc_id": "320",
+            "cpsc_dept": "cpsc"
+        },
+        {
+            "cpsc_id": "320",
+            "cpsc_dept": "cpsc"
+        },
+        {
+            "cpsc_id": "320",
+            "cpsc_dept": "cpsc"
+        },
+        {
+            "cpsc_id": "320",
+            "cpsc_dept": "cpsc"
+        },
+        {
+            "cpsc_id": "320",
+            "cpsc_dept": "cpsc"
+        },
+        {
+            "cpsc_id": "320",
+            "cpsc_dept": "cpsc"
+        },
+        {
+            "cpsc_id": "320",
+            "cpsc_dept": "cpsc"
+        },
+        {
+            "cpsc_id": "320",
+            "cpsc_dept": "cpsc"
+        },
+        {
+            "cpsc_id": "320",
+            "cpsc_dept": "cpsc"
+        },
+        {
+            "cpsc_id": "320",
+            "cpsc_dept": "cpsc"
+        },
+        {
+            "cpsc_id": "320",
+            "cpsc_dept": "cpsc"
+        },
+        {
+            "cpsc_id": "320",
+            "cpsc_dept": "cpsc"
+        },
+        {
+            "cpsc_id": "320",
+            "cpsc_dept": "cpsc"
+        },
+        {
+            "cpsc_id": "320",
+            "cpsc_dept": "cpsc"
+        },
+        {
+            "cpsc_id": "320",
+            "cpsc_dept": "cpsc"
+        },
+        {
+            "cpsc_id": "320",
+            "cpsc_dept": "cpsc"
+        },
+        {
+            "cpsc_id": "320",
+            "cpsc_dept": "cpsc"
+        },
+        {
+            "cpsc_id": "320",
+            "cpsc_dept": "cpsc"
+        },
+        {
+            "cpsc_id": "320",
+            "cpsc_dept": "cpsc"
+        },
+        {
+            "cpsc_id": "320",
+            "cpsc_dept": "cpsc"
+        },
+        {
+            "cpsc_id": "320",
+            "cpsc_dept": "cpsc"
+        },
+        {
+            "cpsc_id": "320",
+            "cpsc_dept": "cpsc"
+        },
+        {
+            "cpsc_id": "320",
+            "cpsc_dept": "cpsc"
+        },
+        {
+            "cpsc_id": "320",
+            "cpsc_dept": "cpsc"
+        },
+        {
+            "cpsc_id": "320",
+            "cpsc_dept": "cpsc"
+        },
+        {
+            "cpsc_id": "320",
+            "cpsc_dept": "cpsc"
+        },
+        {
+            "cpsc_id": "320",
+            "cpsc_dept": "cpsc"
+        },
+        {
+            "cpsc_id": "322",
+            "cpsc_dept": "cpsc"
+        },
+        {
+            "cpsc_id": "322",
+            "cpsc_dept": "cpsc"
+        },
+        {
+            "cpsc_id": "322",
+            "cpsc_dept": "cpsc"
+        },
+        {
+            "cpsc_id": "322",
+            "cpsc_dept": "cpsc"
+        },
+        {
+            "cpsc_id": "322",
+            "cpsc_dept": "cpsc"
+        },
+        {
+            "cpsc_id": "322",
+            "cpsc_dept": "cpsc"
+        },
+        {
+            "cpsc_id": "322",
+            "cpsc_dept": "cpsc"
+        },
+        {
+            "cpsc_id": "322",
+            "cpsc_dept": "cpsc"
+        },
+        {
+            "cpsc_id": "322",
+            "cpsc_dept": "cpsc"
+        },
+        {
+            "cpsc_id": "322",
+            "cpsc_dept": "cpsc"
+        },
+        {
+            "cpsc_id": "322",
+            "cpsc_dept": "cpsc"
+        },
+        {
+            "cpsc_id": "322",
+            "cpsc_dept": "cpsc"
+        },
+        {
+            "cpsc_id": "322",
+            "cpsc_dept": "cpsc"
+        },
+        {
+            "cpsc_id": "322",
+            "cpsc_dept": "cpsc"
+        },
+        {
+            "cpsc_id": "322",
+            "cpsc_dept": "cpsc"
+        },
+        {
+            "cpsc_id": "322",
+            "cpsc_dept": "cpsc"
+        },
+        {
+            "cpsc_id": "322",
+            "cpsc_dept": "cpsc"
+        },
+        {
+            "cpsc_id": "322",
+            "cpsc_dept": "cpsc"
+        },
+        {
+            "cpsc_id": "322",
+            "cpsc_dept": "cpsc"
+        },
+        {
+            "cpsc_id": "322",
+            "cpsc_dept": "cpsc"
+        },
+        {
+            "cpsc_id": "322",
+            "cpsc_dept": "cpsc"
+        },
+        {
+            "cpsc_id": "322",
+            "cpsc_dept": "cpsc"
+        },
+        {
+            "cpsc_id": "322",
+            "cpsc_dept": "cpsc"
+        },
+        {
+            "cpsc_id": "322",
+            "cpsc_dept": "cpsc"
+        },
+        {
+            "cpsc_id": "322",
+            "cpsc_dept": "cpsc"
+        },
+        {
+            "cpsc_id": "322",
+            "cpsc_dept": "cpsc"
+        },
+        {
+            "cpsc_id": "322",
+            "cpsc_dept": "cpsc"
+        },
+        {
+            "cpsc_id": "322",
+            "cpsc_dept": "cpsc"
+        },
+        {
+            "cpsc_id": "322",
+            "cpsc_dept": "cpsc"
+        },
+        {
+            "cpsc_id": "322",
+            "cpsc_dept": "cpsc"
+        },
+        {
+            "cpsc_id": "322",
+            "cpsc_dept": "cpsc"
+        },
+        {
+            "cpsc_id": "340",
+            "cpsc_dept": "cpsc"
+        },
+        {
+            "cpsc_id": "340",
+            "cpsc_dept": "cpsc"
+        },
+        {
+            "cpsc_id": "340",
+            "cpsc_dept": "cpsc"
+        },
+        {
+            "cpsc_id": "340",
+            "cpsc_dept": "cpsc"
+        },
+        {
+            "cpsc_id": "340",
+            "cpsc_dept": "cpsc"
+        },
+        {
+            "cpsc_id": "340",
+            "cpsc_dept": "cpsc"
+        },
+        {
+            "cpsc_id": "340",
+            "cpsc_dept": "cpsc"
+        },
+        {
+            "cpsc_id": "340",
+            "cpsc_dept": "cpsc"
+        },
+        {
+            "cpsc_id": "340",
+            "cpsc_dept": "cpsc"
+        },
+        {
+            "cpsc_id": "340",
+            "cpsc_dept": "cpsc"
+        },
+        {
+            "cpsc_id": "340",
+            "cpsc_dept": "cpsc"
+        },
+        {
+            "cpsc_id": "340",
+            "cpsc_dept": "cpsc"
+        },
+        {
+            "cpsc_id": "340",
+            "cpsc_dept": "cpsc"
+        },
+        {
+            "cpsc_id": "340",
+            "cpsc_dept": "cpsc"
+        },
+        {
+            "cpsc_id": "340",
+            "cpsc_dept": "cpsc"
+        },
+        {
+            "cpsc_id": "340",
+            "cpsc_dept": "cpsc"
+        },
+        {
+            "cpsc_id": "340",
+            "cpsc_dept": "cpsc"
+        },
+        {
+            "cpsc_id": "340",
+            "cpsc_dept": "cpsc"
+        },
+        {
+            "cpsc_id": "340",
+            "cpsc_dept": "cpsc"
+        },
+        {
+            "cpsc_id": "340",
+            "cpsc_dept": "cpsc"
+        },
+        {
+            "cpsc_id": "344",
+            "cpsc_dept": "cpsc"
+        },
+        {
+            "cpsc_id": "344",
+            "cpsc_dept": "cpsc"
+        },
+        {
+            "cpsc_id": "344",
+            "cpsc_dept": "cpsc"
+        },
+        {
+            "cpsc_id": "344",
+            "cpsc_dept": "cpsc"
+        },
+        {
+            "cpsc_id": "344",
+            "cpsc_dept": "cpsc"
+        },
+        {
+            "cpsc_id": "344",
+            "cpsc_dept": "cpsc"
+        },
+        {
+            "cpsc_id": "344",
+            "cpsc_dept": "cpsc"
+        },
+        {
+            "cpsc_id": "344",
+            "cpsc_dept": "cpsc"
+        },
+        {
+            "cpsc_id": "344",
+            "cpsc_dept": "cpsc"
+        },
+        {
+            "cpsc_id": "344",
+            "cpsc_dept": "cpsc"
+        },
+        {
+            "cpsc_id": "344",
+            "cpsc_dept": "cpsc"
+        },
+        {
+            "cpsc_id": "344",
+            "cpsc_dept": "cpsc"
+        },
+        {
+            "cpsc_id": "344",
+            "cpsc_dept": "cpsc"
+        },
+        {
+            "cpsc_id": "344",
+            "cpsc_dept": "cpsc"
+        },
+        {
+            "cpsc_id": "344",
+            "cpsc_dept": "cpsc"
+        },
+        {
+            "cpsc_id": "344",
+            "cpsc_dept": "cpsc"
+        },
+        {
+            "cpsc_id": "344",
+            "cpsc_dept": "cpsc"
+        },
+        {
+            "cpsc_id": "344",
+            "cpsc_dept": "cpsc"
+        },
+        {
+            "cpsc_id": "344",
+            "cpsc_dept": "cpsc"
+        },
+        {
+            "cpsc_id": "404",
+            "cpsc_dept": "cpsc"
+        },
+        {
+            "cpsc_id": "404",
+            "cpsc_dept": "cpsc"
+        },
+        {
+            "cpsc_id": "404",
+            "cpsc_dept": "cpsc"
+        },
+        {
+            "cpsc_id": "404",
+            "cpsc_dept": "cpsc"
+        },
+        {
+            "cpsc_id": "404",
+            "cpsc_dept": "cpsc"
+        },
+        {
+            "cpsc_id": "404",
+            "cpsc_dept": "cpsc"
+        },
+        {
+            "cpsc_id": "404",
+            "cpsc_dept": "cpsc"
+        },
+        {
+            "cpsc_id": "404",
+            "cpsc_dept": "cpsc"
+        },
+        {
+            "cpsc_id": "404",
+            "cpsc_dept": "cpsc"
+        },
+        {
+            "cpsc_id": "404",
+            "cpsc_dept": "cpsc"
+        },
+        {
+            "cpsc_id": "404",
+            "cpsc_dept": "cpsc"
+        },
+        {
+            "cpsc_id": "404",
+            "cpsc_dept": "cpsc"
+        },
+        {
+            "cpsc_id": "404",
+            "cpsc_dept": "cpsc"
+        },
+        {
+            "cpsc_id": "404",
+            "cpsc_dept": "cpsc"
+        },
+        {
+            "cpsc_id": "404",
+            "cpsc_dept": "cpsc"
+        },
+        {
+            "cpsc_id": "404",
+            "cpsc_dept": "cpsc"
+        },
+        {
+            "cpsc_id": "404",
+            "cpsc_dept": "cpsc"
+        },
+        {
+            "cpsc_id": "404",
+            "cpsc_dept": "cpsc"
+        },
+        {
+            "cpsc_id": "404",
+            "cpsc_dept": "cpsc"
+        },
+        {
+            "cpsc_id": "404",
+            "cpsc_dept": "cpsc"
+        },
+        {
+            "cpsc_id": "404",
+            "cpsc_dept": "cpsc"
+        },
+        {
+            "cpsc_id": "404",
+            "cpsc_dept": "cpsc"
+        },
+        {
+            "cpsc_id": "404",
+            "cpsc_dept": "cpsc"
+        },
+        {
+            "cpsc_id": "404",
+            "cpsc_dept": "cpsc"
+        },
+        {
+            "cpsc_id": "404",
+            "cpsc_dept": "cpsc"
+        },
+        {
+            "cpsc_id": "404",
+            "cpsc_dept": "cpsc"
+        },
+        {
+            "cpsc_id": "404",
+            "cpsc_dept": "cpsc"
+        },
+        {
+            "cpsc_id": "410",
+            "cpsc_dept": "cpsc"
+        },
+        {
+            "cpsc_id": "410",
+            "cpsc_dept": "cpsc"
+        },
+        {
+            "cpsc_id": "410",
+            "cpsc_dept": "cpsc"
+        },
+        {
+            "cpsc_id": "410",
+            "cpsc_dept": "cpsc"
+        },
+        {
+            "cpsc_id": "410",
+            "cpsc_dept": "cpsc"
+        },
+        {
+            "cpsc_id": "410",
+            "cpsc_dept": "cpsc"
+        },
+        {
+            "cpsc_id": "410",
+            "cpsc_dept": "cpsc"
+        },
+        {
+            "cpsc_id": "410",
+            "cpsc_dept": "cpsc"
+        },
+        {
+            "cpsc_id": "410",
+            "cpsc_dept": "cpsc"
+        },
+        {
+            "cpsc_id": "410",
+            "cpsc_dept": "cpsc"
+        },
+        {
+            "cpsc_id": "410",
+            "cpsc_dept": "cpsc"
+        },
+        {
+            "cpsc_id": "410",
+            "cpsc_dept": "cpsc"
+        },
+        {
+            "cpsc_id": "410",
+            "cpsc_dept": "cpsc"
+        },
+        {
+            "cpsc_id": "410",
+            "cpsc_dept": "cpsc"
+        },
+        {
+            "cpsc_id": "410",
+            "cpsc_dept": "cpsc"
+        },
+        {
+            "cpsc_id": "410",
+            "cpsc_dept": "cpsc"
+        },
+        {
+            "cpsc_id": "410",
+            "cpsc_dept": "cpsc"
+        },
+        {
+            "cpsc_id": "410",
+            "cpsc_dept": "cpsc"
+        },
+        {
+            "cpsc_id": "411",
+            "cpsc_dept": "cpsc"
+        },
+        {
+            "cpsc_id": "411",
+            "cpsc_dept": "cpsc"
+        },
+        {
+            "cpsc_id": "411",
+            "cpsc_dept": "cpsc"
+        },
+        {
+            "cpsc_id": "411",
+            "cpsc_dept": "cpsc"
+        },
+        {
+            "cpsc_id": "411",
+            "cpsc_dept": "cpsc"
+        },
+        {
+            "cpsc_id": "411",
+            "cpsc_dept": "cpsc"
+        },
+        {
+            "cpsc_id": "411",
+            "cpsc_dept": "cpsc"
+        },
+        {
+            "cpsc_id": "411",
+            "cpsc_dept": "cpsc"
+        },
+        {
+            "cpsc_id": "411",
+            "cpsc_dept": "cpsc"
+        },
+        {
+            "cpsc_id": "411",
+            "cpsc_dept": "cpsc"
+        },
+        {
+            "cpsc_id": "411",
+            "cpsc_dept": "cpsc"
+        },
+        {
+            "cpsc_id": "411",
+            "cpsc_dept": "cpsc"
+        },
+        {
+            "cpsc_id": "411",
+            "cpsc_dept": "cpsc"
+        },
+        {
+            "cpsc_id": "411",
+            "cpsc_dept": "cpsc"
+        },
+        {
+            "cpsc_id": "411",
+            "cpsc_dept": "cpsc"
+        },
+        {
+            "cpsc_id": "411",
+            "cpsc_dept": "cpsc"
+        },
+        {
+            "cpsc_id": "411",
+            "cpsc_dept": "cpsc"
+        },
+        {
+            "cpsc_id": "411",
+            "cpsc_dept": "cpsc"
+        },
+        {
+            "cpsc_id": "415",
+            "cpsc_dept": "cpsc"
+        },
+        {
+            "cpsc_id": "415",
+            "cpsc_dept": "cpsc"
+        },
+        {
+            "cpsc_id": "415",
+            "cpsc_dept": "cpsc"
+        },
+        {
+            "cpsc_id": "415",
+            "cpsc_dept": "cpsc"
+        },
+        {
+            "cpsc_id": "415",
+            "cpsc_dept": "cpsc"
+        },
+        {
+            "cpsc_id": "415",
+            "cpsc_dept": "cpsc"
+        },
+        {
+            "cpsc_id": "415",
+            "cpsc_dept": "cpsc"
+        },
+        {
+            "cpsc_id": "415",
+            "cpsc_dept": "cpsc"
+        },
+        {
+            "cpsc_id": "415",
+            "cpsc_dept": "cpsc"
+        },
+        {
+            "cpsc_id": "415",
+            "cpsc_dept": "cpsc"
+        },
+        {
+            "cpsc_id": "415",
+            "cpsc_dept": "cpsc"
+        },
+        {
+            "cpsc_id": "415",
+            "cpsc_dept": "cpsc"
+        },
+        {
+            "cpsc_id": "415",
+            "cpsc_dept": "cpsc"
+        },
+        {
+            "cpsc_id": "415",
+            "cpsc_dept": "cpsc"
+        },
+        {
+            "cpsc_id": "415",
+            "cpsc_dept": "cpsc"
+        },
+        {
+            "cpsc_id": "415",
+            "cpsc_dept": "cpsc"
+        },
+        {
+            "cpsc_id": "415",
+            "cpsc_dept": "cpsc"
+        },
+        {
+            "cpsc_id": "415",
+            "cpsc_dept": "cpsc"
+        },
+        {
+            "cpsc_id": "415",
+            "cpsc_dept": "cpsc"
+        },
+        {
+            "cpsc_id": "415",
+            "cpsc_dept": "cpsc"
+        },
+        {
+            "cpsc_id": "416",
+            "cpsc_dept": "cpsc"
+        },
+        {
+            "cpsc_id": "416",
+            "cpsc_dept": "cpsc"
+        },
+        {
+            "cpsc_id": "416",
+            "cpsc_dept": "cpsc"
+        },
+        {
+            "cpsc_id": "416",
+            "cpsc_dept": "cpsc"
+        },
+        {
+            "cpsc_id": "416",
+            "cpsc_dept": "cpsc"
+        },
+        {
+            "cpsc_id": "416",
+            "cpsc_dept": "cpsc"
+        },
+        {
+            "cpsc_id": "416",
+            "cpsc_dept": "cpsc"
+        },
+        {
+            "cpsc_id": "416",
+            "cpsc_dept": "cpsc"
+        },
+        {
+            "cpsc_id": "416",
+            "cpsc_dept": "cpsc"
+        },
+        {
+            "cpsc_id": "416",
+            "cpsc_dept": "cpsc"
+        },
+        {
+            "cpsc_id": "416",
+            "cpsc_dept": "cpsc"
+        },
+        {
+            "cpsc_id": "416",
+            "cpsc_dept": "cpsc"
+        },
+        {
+            "cpsc_id": "416",
+            "cpsc_dept": "cpsc"
+        },
+        {
+            "cpsc_id": "416",
+            "cpsc_dept": "cpsc"
+        },
+        {
+            "cpsc_id": "416",
+            "cpsc_dept": "cpsc"
+        },
+        {
+            "cpsc_id": "416",
+            "cpsc_dept": "cpsc"
+        },
+        {
+            "cpsc_id": "416",
+            "cpsc_dept": "cpsc"
+        },
+        {
+            "cpsc_id": "416",
+            "cpsc_dept": "cpsc"
+        },
+        {
+            "cpsc_id": "418",
+            "cpsc_dept": "cpsc"
+        },
+        {
+            "cpsc_id": "418",
+            "cpsc_dept": "cpsc"
+        },
+        {
+            "cpsc_id": "418",
+            "cpsc_dept": "cpsc"
+        },
+        {
+            "cpsc_id": "418",
+            "cpsc_dept": "cpsc"
+        },
+        {
+            "cpsc_id": "418",
+            "cpsc_dept": "cpsc"
+        },
+        {
+            "cpsc_id": "418",
+            "cpsc_dept": "cpsc"
+        },
+        {
+            "cpsc_id": "420",
+            "cpsc_dept": "cpsc"
+        },
+        {
+            "cpsc_id": "420",
+            "cpsc_dept": "cpsc"
+        },
+        {
+            "cpsc_id": "420",
+            "cpsc_dept": "cpsc"
+        },
+        {
+            "cpsc_id": "420",
+            "cpsc_dept": "cpsc"
+        },
+        {
+            "cpsc_id": "420",
+            "cpsc_dept": "cpsc"
+        },
+        {
+            "cpsc_id": "420",
+            "cpsc_dept": "cpsc"
+        },
+        {
+            "cpsc_id": "420",
+            "cpsc_dept": "cpsc"
+        },
+        {
+            "cpsc_id": "420",
+            "cpsc_dept": "cpsc"
+        },
+        {
+            "cpsc_id": "420",
+            "cpsc_dept": "cpsc"
+        },
+        {
+            "cpsc_id": "420",
+            "cpsc_dept": "cpsc"
+        },
+        {
+            "cpsc_id": "420",
+            "cpsc_dept": "cpsc"
+        },
+        {
+            "cpsc_id": "420",
+            "cpsc_dept": "cpsc"
+        },
+        {
+            "cpsc_id": "420",
+            "cpsc_dept": "cpsc"
+        },
+        {
+            "cpsc_id": "420",
+            "cpsc_dept": "cpsc"
+        },
+        {
+            "cpsc_id": "420",
+            "cpsc_dept": "cpsc"
+        },
+        {
+            "cpsc_id": "420",
+            "cpsc_dept": "cpsc"
+        },
+        {
+            "cpsc_id": "420",
+            "cpsc_dept": "cpsc"
+        },
+        {
+            "cpsc_id": "420",
+            "cpsc_dept": "cpsc"
+        },
+        {
+            "cpsc_id": "421",
+            "cpsc_dept": "cpsc"
+        },
+        {
+            "cpsc_id": "421",
+            "cpsc_dept": "cpsc"
+        },
+        {
+            "cpsc_id": "421",
+            "cpsc_dept": "cpsc"
+        },
+        {
+            "cpsc_id": "421",
+            "cpsc_dept": "cpsc"
+        },
+        {
+            "cpsc_id": "421",
+            "cpsc_dept": "cpsc"
+        },
+        {
+            "cpsc_id": "421",
+            "cpsc_dept": "cpsc"
+        },
+        {
+            "cpsc_id": "421",
+            "cpsc_dept": "cpsc"
+        },
+        {
+            "cpsc_id": "421",
+            "cpsc_dept": "cpsc"
+        },
+        {
+            "cpsc_id": "421",
+            "cpsc_dept": "cpsc"
+        },
+        {
+            "cpsc_id": "421",
+            "cpsc_dept": "cpsc"
+        },
+        {
+            "cpsc_id": "421",
+            "cpsc_dept": "cpsc"
+        },
+        {
+            "cpsc_id": "421",
+            "cpsc_dept": "cpsc"
+        },
+        {
+            "cpsc_id": "421",
+            "cpsc_dept": "cpsc"
+        },
+        {
+            "cpsc_id": "421",
+            "cpsc_dept": "cpsc"
+        },
+        {
+            "cpsc_id": "421",
+            "cpsc_dept": "cpsc"
+        },
+        {
+            "cpsc_id": "421",
+            "cpsc_dept": "cpsc"
+        },
+        {
+            "cpsc_id": "421",
+            "cpsc_dept": "cpsc"
+        },
+        {
+            "cpsc_id": "421",
+            "cpsc_dept": "cpsc"
+        },
+        {
+            "cpsc_id": "422",
+            "cpsc_dept": "cpsc"
+        },
+        {
+            "cpsc_id": "422",
+            "cpsc_dept": "cpsc"
+        },
+        {
+            "cpsc_id": "422",
+            "cpsc_dept": "cpsc"
+        },
+        {
+            "cpsc_id": "422",
+            "cpsc_dept": "cpsc"
+        },
+        {
+            "cpsc_id": "422",
+            "cpsc_dept": "cpsc"
+        },
+        {
+            "cpsc_id": "422",
+            "cpsc_dept": "cpsc"
+        },
+        {
+            "cpsc_id": "422",
+            "cpsc_dept": "cpsc"
+        },
+        {
+            "cpsc_id": "422",
+            "cpsc_dept": "cpsc"
+        },
+        {
+            "cpsc_id": "422",
+            "cpsc_dept": "cpsc"
+        },
+        {
+            "cpsc_id": "422",
+            "cpsc_dept": "cpsc"
+        },
+        {
+            "cpsc_id": "422",
+            "cpsc_dept": "cpsc"
+        },
+        {
+            "cpsc_id": "422",
+            "cpsc_dept": "cpsc"
+        },
+        {
+            "cpsc_id": "422",
+            "cpsc_dept": "cpsc"
+        },
+        {
+            "cpsc_id": "422",
+            "cpsc_dept": "cpsc"
+        },
+        {
+            "cpsc_id": "422",
+            "cpsc_dept": "cpsc"
+        },
+        {
+            "cpsc_id": "422",
+            "cpsc_dept": "cpsc"
+        },
+        {
+            "cpsc_id": "422",
+            "cpsc_dept": "cpsc"
+        },
+        {
+            "cpsc_id": "422",
+            "cpsc_dept": "cpsc"
+        },
+        {
+            "cpsc_id": "425",
+            "cpsc_dept": "cpsc"
+        },
+        {
+            "cpsc_id": "425",
+            "cpsc_dept": "cpsc"
+        },
+        {
+            "cpsc_id": "425",
+            "cpsc_dept": "cpsc"
+        },
+        {
+            "cpsc_id": "425",
+            "cpsc_dept": "cpsc"
+        },
+        {
+            "cpsc_id": "425",
+            "cpsc_dept": "cpsc"
+        },
+        {
+            "cpsc_id": "425",
+            "cpsc_dept": "cpsc"
+        },
+        {
+            "cpsc_id": "425",
+            "cpsc_dept": "cpsc"
+        },
+        {
+            "cpsc_id": "425",
+            "cpsc_dept": "cpsc"
+        },
+        {
+            "cpsc_id": "425",
+            "cpsc_dept": "cpsc"
+        },
+        {
+            "cpsc_id": "425",
+            "cpsc_dept": "cpsc"
+        },
+        {
+            "cpsc_id": "425",
+            "cpsc_dept": "cpsc"
+        },
+        {
+            "cpsc_id": "425",
+            "cpsc_dept": "cpsc"
+        },
+        {
+            "cpsc_id": "425",
+            "cpsc_dept": "cpsc"
+        },
+        {
+            "cpsc_id": "425",
+            "cpsc_dept": "cpsc"
+        },
+        {
+            "cpsc_id": "425",
+            "cpsc_dept": "cpsc"
+        },
+        {
+            "cpsc_id": "425",
+            "cpsc_dept": "cpsc"
+        },
+        {
+            "cpsc_id": "425",
+            "cpsc_dept": "cpsc"
+        },
+        {
+            "cpsc_id": "425",
+            "cpsc_dept": "cpsc"
+        },
+        {
+            "cpsc_id": "430",
+            "cpsc_dept": "cpsc"
+        },
+        {
+            "cpsc_id": "430",
+            "cpsc_dept": "cpsc"
+        },
+        {
+            "cpsc_id": "430",
+            "cpsc_dept": "cpsc"
+        },
+        {
+            "cpsc_id": "430",
+            "cpsc_dept": "cpsc"
+        },
+        {
+            "cpsc_id": "430",
+            "cpsc_dept": "cpsc"
+        },
+        {
+            "cpsc_id": "430",
+            "cpsc_dept": "cpsc"
+        },
+        {
+            "cpsc_id": "430",
+            "cpsc_dept": "cpsc"
+        },
+        {
+            "cpsc_id": "430",
+            "cpsc_dept": "cpsc"
+        },
+        {
+            "cpsc_id": "430",
+            "cpsc_dept": "cpsc"
+        },
+        {
+            "cpsc_id": "430",
+            "cpsc_dept": "cpsc"
+        },
+        {
+            "cpsc_id": "430",
+            "cpsc_dept": "cpsc"
+        },
+        {
+            "cpsc_id": "430",
+            "cpsc_dept": "cpsc"
+        },
+        {
+            "cpsc_id": "430",
+            "cpsc_dept": "cpsc"
+        },
+        {
+            "cpsc_id": "430",
+            "cpsc_dept": "cpsc"
+        },
+        {
+            "cpsc_id": "430",
+            "cpsc_dept": "cpsc"
+        },
+        {
+            "cpsc_id": "430",
+            "cpsc_dept": "cpsc"
+        },
+        {
+            "cpsc_id": "430",
+            "cpsc_dept": "cpsc"
+        },
+        {
+            "cpsc_id": "430",
+            "cpsc_dept": "cpsc"
+        },
+        {
+            "cpsc_id": "430",
+            "cpsc_dept": "cpsc"
+        },
+        {
+            "cpsc_id": "430",
+            "cpsc_dept": "cpsc"
+        },
+        {
+            "cpsc_id": "430",
+            "cpsc_dept": "cpsc"
+        },
+        {
+            "cpsc_id": "430",
+            "cpsc_dept": "cpsc"
+        },
+        {
+            "cpsc_id": "444",
+            "cpsc_dept": "cpsc"
+        },
+        {
+            "cpsc_id": "444",
+            "cpsc_dept": "cpsc"
+        },
+        {
+            "cpsc_id": "444",
+            "cpsc_dept": "cpsc"
+        },
+        {
+            "cpsc_id": "444",
+            "cpsc_dept": "cpsc"
+        },
+        {
+            "cpsc_id": "444",
+            "cpsc_dept": "cpsc"
+        },
+        {
+            "cpsc_id": "444",
+            "cpsc_dept": "cpsc"
+        },
+        {
+            "cpsc_id": "444",
+            "cpsc_dept": "cpsc"
+        },
+        {
+            "cpsc_id": "444",
+            "cpsc_dept": "cpsc"
+        },
+        {
+            "cpsc_id": "444",
+            "cpsc_dept": "cpsc"
+        },
+        {
+            "cpsc_id": "444",
+            "cpsc_dept": "cpsc"
+        },
+        {
+            "cpsc_id": "445",
+            "cpsc_dept": "cpsc"
+        },
+        {
+            "cpsc_id": "445",
+            "cpsc_dept": "cpsc"
+        },
+        {
+            "cpsc_id": "445",
+            "cpsc_dept": "cpsc"
+        },
+        {
+            "cpsc_id": "445",
+            "cpsc_dept": "cpsc"
+        },
+        {
+            "cpsc_id": "445",
+            "cpsc_dept": "cpsc"
+        },
+        {
+            "cpsc_id": "445",
+            "cpsc_dept": "cpsc"
+        },
+        {
+            "cpsc_id": "445",
+            "cpsc_dept": "cpsc"
+        },
+        {
+            "cpsc_id": "445",
+            "cpsc_dept": "cpsc"
+        },
+        {
+            "cpsc_id": "445",
+            "cpsc_dept": "cpsc"
+        },
+        {
+            "cpsc_id": "445",
+            "cpsc_dept": "cpsc"
+        },
+        {
+            "cpsc_id": "445",
+            "cpsc_dept": "cpsc"
+        },
+        {
+            "cpsc_id": "445",
+            "cpsc_dept": "cpsc"
+        },
+        {
+            "cpsc_id": "445",
+            "cpsc_dept": "cpsc"
+        },
+        {
+            "cpsc_id": "445",
+            "cpsc_dept": "cpsc"
+        },
+        {
+            "cpsc_id": "445",
+            "cpsc_dept": "cpsc"
+        },
+        {
+            "cpsc_id": "445",
+            "cpsc_dept": "cpsc"
+        },
+        {
+            "cpsc_id": "445",
+            "cpsc_dept": "cpsc"
+        },
+        {
+            "cpsc_id": "445",
+            "cpsc_dept": "cpsc"
+        },
+        {
+            "cpsc_id": "449",
+            "cpsc_dept": "cpsc"
+        },
+        {
+            "cpsc_id": "449",
+            "cpsc_dept": "cpsc"
+        },
+        {
+            "cpsc_id": "449",
+            "cpsc_dept": "cpsc"
+        },
+        {
+            "cpsc_id": "449",
+            "cpsc_dept": "cpsc"
+        },
+        {
+            "cpsc_id": "449",
+            "cpsc_dept": "cpsc"
+        },
+        {
+            "cpsc_id": "449",
+            "cpsc_dept": "cpsc"
+        },
+        {
+            "cpsc_id": "449",
+            "cpsc_dept": "cpsc"
+        },
+        {
+            "cpsc_id": "449",
+            "cpsc_dept": "cpsc"
+        },
+        {
+            "cpsc_id": "449",
+            "cpsc_dept": "cpsc"
+        },
+        {
+            "cpsc_id": "449",
+            "cpsc_dept": "cpsc"
+        },
+        {
+            "cpsc_id": "449",
+            "cpsc_dept": "cpsc"
+        },
+        {
+            "cpsc_id": "449",
+            "cpsc_dept": "cpsc"
+        },
+        {
+            "cpsc_id": "449",
+            "cpsc_dept": "cpsc"
+        },
+        {
+            "cpsc_id": "449",
+            "cpsc_dept": "cpsc"
+        },
+        {
+            "cpsc_id": "449",
+            "cpsc_dept": "cpsc"
+        },
+        {
+            "cpsc_id": "449",
+            "cpsc_dept": "cpsc"
+        },
+        {
+            "cpsc_id": "490",
+            "cpsc_dept": "cpsc"
+        },
+        {
+            "cpsc_id": "490",
+            "cpsc_dept": "cpsc"
+        },
+        {
+            "cpsc_id": "490",
+            "cpsc_dept": "cpsc"
+        },
+        {
+            "cpsc_id": "490",
+            "cpsc_dept": "cpsc"
+        },
+        {
+            "cpsc_id": "490",
+            "cpsc_dept": "cpsc"
+        },
+        {
+            "cpsc_id": "490",
+            "cpsc_dept": "cpsc"
+        },
+        {
+            "cpsc_id": "490",
+            "cpsc_dept": "cpsc"
+        },
+        {
+            "cpsc_id": "490",
+            "cpsc_dept": "cpsc"
+        },
+        {
+            "cpsc_id": "490",
+            "cpsc_dept": "cpsc"
+        },
+        {
+            "cpsc_id": "490",
+            "cpsc_dept": "cpsc"
+        },
+        {
+            "cpsc_id": "490",
+            "cpsc_dept": "cpsc"
+        },
+        {
+            "cpsc_id": "490",
+            "cpsc_dept": "cpsc"
+        },
+        {
+            "cpsc_id": "490",
+            "cpsc_dept": "cpsc"
+        },
+        {
+            "cpsc_id": "490",
+            "cpsc_dept": "cpsc"
+        },
+        {
+            "cpsc_id": "490",
+            "cpsc_dept": "cpsc"
+        },
+        {
+            "cpsc_id": "500",
+            "cpsc_dept": "cpsc"
+        },
+        {
+            "cpsc_id": "500",
+            "cpsc_dept": "cpsc"
+        },
+        {
+            "cpsc_id": "500",
+            "cpsc_dept": "cpsc"
+        },
+        {
+            "cpsc_id": "500",
+            "cpsc_dept": "cpsc"
+        },
+        {
+            "cpsc_id": "500",
+            "cpsc_dept": "cpsc"
+        },
+        {
+            "cpsc_id": "500",
+            "cpsc_dept": "cpsc"
+        },
+        {
+            "cpsc_id": "500",
+            "cpsc_dept": "cpsc"
+        },
+        {
+            "cpsc_id": "500",
+            "cpsc_dept": "cpsc"
+        },
+        {
+            "cpsc_id": "500",
+            "cpsc_dept": "cpsc"
+        },
+        {
+            "cpsc_id": "500",
+            "cpsc_dept": "cpsc"
+        },
+        {
+            "cpsc_id": "500",
+            "cpsc_dept": "cpsc"
+        },
+        {
+            "cpsc_id": "500",
+            "cpsc_dept": "cpsc"
+        },
+        {
+            "cpsc_id": "500",
+            "cpsc_dept": "cpsc"
+        },
+        {
+            "cpsc_id": "500",
+            "cpsc_dept": "cpsc"
+        },
+        {
+            "cpsc_id": "500",
+            "cpsc_dept": "cpsc"
+        },
+        {
+            "cpsc_id": "500",
+            "cpsc_dept": "cpsc"
+        },
+        {
+            "cpsc_id": "500",
+            "cpsc_dept": "cpsc"
+        },
+        {
+            "cpsc_id": "500",
+            "cpsc_dept": "cpsc"
+        },
+        {
+            "cpsc_id": "501",
+            "cpsc_dept": "cpsc"
+        },
+        {
+            "cpsc_id": "501",
+            "cpsc_dept": "cpsc"
+        },
+        {
+            "cpsc_id": "501",
+            "cpsc_dept": "cpsc"
+        },
+        {
+            "cpsc_id": "501",
+            "cpsc_dept": "cpsc"
+        },
+        {
+            "cpsc_id": "501",
+            "cpsc_dept": "cpsc"
+        },
+        {
+            "cpsc_id": "501",
+            "cpsc_dept": "cpsc"
+        },
+        {
+            "cpsc_id": "501",
+            "cpsc_dept": "cpsc"
+        },
+        {
+            "cpsc_id": "501",
+            "cpsc_dept": "cpsc"
+        },
+        {
+            "cpsc_id": "501",
+            "cpsc_dept": "cpsc"
+        },
+        {
+            "cpsc_id": "501",
+            "cpsc_dept": "cpsc"
+        },
+        {
+            "cpsc_id": "501",
+            "cpsc_dept": "cpsc"
+        },
+        {
+            "cpsc_id": "501",
+            "cpsc_dept": "cpsc"
+        },
+        {
+            "cpsc_id": "502",
+            "cpsc_dept": "cpsc"
+        },
+        {
+            "cpsc_id": "502",
+            "cpsc_dept": "cpsc"
+        },
+        {
+            "cpsc_id": "502",
+            "cpsc_dept": "cpsc"
+        },
+        {
+            "cpsc_id": "502",
+            "cpsc_dept": "cpsc"
+        },
+        {
+            "cpsc_id": "502",
+            "cpsc_dept": "cpsc"
+        },
+        {
+            "cpsc_id": "502",
+            "cpsc_dept": "cpsc"
+        },
+        {
+            "cpsc_id": "502",
+            "cpsc_dept": "cpsc"
+        },
+        {
+            "cpsc_id": "502",
+            "cpsc_dept": "cpsc"
+        },
+        {
+            "cpsc_id": "502",
+            "cpsc_dept": "cpsc"
+        },
+        {
+            "cpsc_id": "502",
+            "cpsc_dept": "cpsc"
+        },
+        {
+            "cpsc_id": "502",
+            "cpsc_dept": "cpsc"
+        },
+        {
+            "cpsc_id": "502",
+            "cpsc_dept": "cpsc"
+        },
+        {
+            "cpsc_id": "502",
+            "cpsc_dept": "cpsc"
+        },
+        {
+            "cpsc_id": "502",
+            "cpsc_dept": "cpsc"
+        },
+        {
+            "cpsc_id": "503",
+            "cpsc_dept": "cpsc"
+        },
+        {
+            "cpsc_id": "503",
+            "cpsc_dept": "cpsc"
+        },
+        {
+            "cpsc_id": "503",
+            "cpsc_dept": "cpsc"
+        },
+        {
+            "cpsc_id": "503",
+            "cpsc_dept": "cpsc"
+        },
+        {
+            "cpsc_id": "503",
+            "cpsc_dept": "cpsc"
+        },
+        {
+            "cpsc_id": "503",
+            "cpsc_dept": "cpsc"
+        },
+        {
+            "cpsc_id": "503",
+            "cpsc_dept": "cpsc"
+        },
+        {
+            "cpsc_id": "503",
+            "cpsc_dept": "cpsc"
+        },
+        {
+            "cpsc_id": "503",
+            "cpsc_dept": "cpsc"
+        },
+        {
+            "cpsc_id": "503",
+            "cpsc_dept": "cpsc"
+        },
+        {
+            "cpsc_id": "503",
+            "cpsc_dept": "cpsc"
+        },
+        {
+            "cpsc_id": "503",
+            "cpsc_dept": "cpsc"
+        },
+        {
+            "cpsc_id": "507",
+            "cpsc_dept": "cpsc"
+        },
+        {
+            "cpsc_id": "507",
+            "cpsc_dept": "cpsc"
+        },
+        {
+            "cpsc_id": "507",
+            "cpsc_dept": "cpsc"
+        },
+        {
+            "cpsc_id": "507",
+            "cpsc_dept": "cpsc"
+        },
+        {
+            "cpsc_id": "507",
+            "cpsc_dept": "cpsc"
+        },
+        {
+            "cpsc_id": "507",
+            "cpsc_dept": "cpsc"
+        },
+        {
+            "cpsc_id": "507",
+            "cpsc_dept": "cpsc"
+        },
+        {
+            "cpsc_id": "507",
+            "cpsc_dept": "cpsc"
+        },
+        {
+            "cpsc_id": "507",
+            "cpsc_dept": "cpsc"
+        },
+        {
+            "cpsc_id": "507",
+            "cpsc_dept": "cpsc"
+        },
+        {
+            "cpsc_id": "509",
+            "cpsc_dept": "cpsc"
+        },
+        {
+            "cpsc_id": "509",
+            "cpsc_dept": "cpsc"
+        },
+        {
+            "cpsc_id": "509",
+            "cpsc_dept": "cpsc"
+        },
+        {
+            "cpsc_id": "509",
+            "cpsc_dept": "cpsc"
+        },
+        {
+            "cpsc_id": "509",
+            "cpsc_dept": "cpsc"
+        },
+        {
+            "cpsc_id": "509",
+            "cpsc_dept": "cpsc"
+        },
+        {
+            "cpsc_id": "509",
+            "cpsc_dept": "cpsc"
+        },
+        {
+            "cpsc_id": "509",
+            "cpsc_dept": "cpsc"
+        },
+        {
+            "cpsc_id": "509",
+            "cpsc_dept": "cpsc"
+        },
+        {
+            "cpsc_id": "509",
+            "cpsc_dept": "cpsc"
+        },
+        {
+            "cpsc_id": "513",
+            "cpsc_dept": "cpsc"
+        },
+        {
+            "cpsc_id": "513",
+            "cpsc_dept": "cpsc"
+        },
+        {
+            "cpsc_id": "513",
+            "cpsc_dept": "cpsc"
+        },
+        {
+            "cpsc_id": "513",
+            "cpsc_dept": "cpsc"
+        },
+        {
+            "cpsc_id": "513",
+            "cpsc_dept": "cpsc"
+        },
+        {
+            "cpsc_id": "513",
+            "cpsc_dept": "cpsc"
+        },
+        {
+            "cpsc_id": "513",
+            "cpsc_dept": "cpsc"
+        },
+        {
+            "cpsc_id": "513",
+            "cpsc_dept": "cpsc"
+        },
+        {
+            "cpsc_id": "513",
+            "cpsc_dept": "cpsc"
+        },
+        {
+            "cpsc_id": "513",
+            "cpsc_dept": "cpsc"
+        },
+        {
+            "cpsc_id": "513",
+            "cpsc_dept": "cpsc"
+        },
+        {
+            "cpsc_id": "513",
+            "cpsc_dept": "cpsc"
+        },
+        {
+            "cpsc_id": "513",
+            "cpsc_dept": "cpsc"
+        },
+        {
+            "cpsc_id": "513",
+            "cpsc_dept": "cpsc"
+        },
+        {
+            "cpsc_id": "513",
+            "cpsc_dept": "cpsc"
+        },
+        {
+            "cpsc_id": "513",
+            "cpsc_dept": "cpsc"
+        },
+        {
+            "cpsc_id": "515",
+            "cpsc_dept": "cpsc"
+        },
+        {
+            "cpsc_id": "515",
+            "cpsc_dept": "cpsc"
+        },
+        {
+            "cpsc_id": "515",
+            "cpsc_dept": "cpsc"
+        },
+        {
+            "cpsc_id": "515",
+            "cpsc_dept": "cpsc"
+        },
+        {
+            "cpsc_id": "515",
+            "cpsc_dept": "cpsc"
+        },
+        {
+            "cpsc_id": "515",
+            "cpsc_dept": "cpsc"
+        },
+        {
+            "cpsc_id": "521",
+            "cpsc_dept": "cpsc"
+        },
+        {
+            "cpsc_id": "521",
+            "cpsc_dept": "cpsc"
+        },
+        {
+            "cpsc_id": "521",
+            "cpsc_dept": "cpsc"
+        },
+        {
+            "cpsc_id": "521",
+            "cpsc_dept": "cpsc"
+        },
+        {
+            "cpsc_id": "521",
+            "cpsc_dept": "cpsc"
+        },
+        {
+            "cpsc_id": "521",
+            "cpsc_dept": "cpsc"
+        },
+        {
+            "cpsc_id": "521",
+            "cpsc_dept": "cpsc"
+        },
+        {
+            "cpsc_id": "521",
+            "cpsc_dept": "cpsc"
+        },
+        {
+            "cpsc_id": "521",
+            "cpsc_dept": "cpsc"
+        },
+        {
+            "cpsc_id": "521",
+            "cpsc_dept": "cpsc"
+        },
+        {
+            "cpsc_id": "521",
+            "cpsc_dept": "cpsc"
+        },
+        {
+            "cpsc_id": "521",
+            "cpsc_dept": "cpsc"
+        },
+        {
+            "cpsc_id": "521",
+            "cpsc_dept": "cpsc"
+        },
+        {
+            "cpsc_id": "521",
+            "cpsc_dept": "cpsc"
+        },
+        {
+            "cpsc_id": "522",
+            "cpsc_dept": "cpsc"
+        },
+        {
+            "cpsc_id": "522",
+            "cpsc_dept": "cpsc"
+        },
+        {
+            "cpsc_id": "522",
+            "cpsc_dept": "cpsc"
+        },
+        {
+            "cpsc_id": "522",
+            "cpsc_dept": "cpsc"
+        },
+        {
+            "cpsc_id": "522",
+            "cpsc_dept": "cpsc"
+        },
+        {
+            "cpsc_id": "522",
+            "cpsc_dept": "cpsc"
+        },
+        {
+            "cpsc_id": "522",
+            "cpsc_dept": "cpsc"
+        },
+        {
+            "cpsc_id": "522",
+            "cpsc_dept": "cpsc"
+        },
+        {
+            "cpsc_id": "527",
+            "cpsc_dept": "cpsc"
+        },
+        {
+            "cpsc_id": "527",
+            "cpsc_dept": "cpsc"
+        },
+        {
+            "cpsc_id": "527",
+            "cpsc_dept": "cpsc"
+        },
+        {
+            "cpsc_id": "527",
+            "cpsc_dept": "cpsc"
+        },
+        {
+            "cpsc_id": "527",
+            "cpsc_dept": "cpsc"
+        },
+        {
+            "cpsc_id": "527",
+            "cpsc_dept": "cpsc"
+        },
+        {
+            "cpsc_id": "527",
+            "cpsc_dept": "cpsc"
+        },
+        {
+            "cpsc_id": "527",
+            "cpsc_dept": "cpsc"
+        },
+        {
+            "cpsc_id": "540",
+            "cpsc_dept": "cpsc"
+        },
+        {
+            "cpsc_id": "540",
+            "cpsc_dept": "cpsc"
+        },
+        {
+            "cpsc_id": "540",
+            "cpsc_dept": "cpsc"
+        },
+        {
+            "cpsc_id": "540",
+            "cpsc_dept": "cpsc"
+        },
+        {
+            "cpsc_id": "540",
+            "cpsc_dept": "cpsc"
+        },
+        {
+            "cpsc_id": "540",
+            "cpsc_dept": "cpsc"
+        },
+        {
+            "cpsc_id": "540",
+            "cpsc_dept": "cpsc"
+        },
+        {
+            "cpsc_id": "540",
+            "cpsc_dept": "cpsc"
+        },
+        {
+            "cpsc_id": "540",
+            "cpsc_dept": "cpsc"
+        },
+        {
+            "cpsc_id": "540",
+            "cpsc_dept": "cpsc"
+        },
+        {
+            "cpsc_id": "540",
+            "cpsc_dept": "cpsc"
+        },
+        {
+            "cpsc_id": "540",
+            "cpsc_dept": "cpsc"
+        },
+        {
+            "cpsc_id": "540",
+            "cpsc_dept": "cpsc"
+        },
+        {
+            "cpsc_id": "540",
+            "cpsc_dept": "cpsc"
+        },
+        {
+            "cpsc_id": "540",
+            "cpsc_dept": "cpsc"
+        },
+        {
+            "cpsc_id": "540",
+            "cpsc_dept": "cpsc"
+        },
+        {
+            "cpsc_id": "543",
+            "cpsc_dept": "cpsc"
+        },
+        {
+            "cpsc_id": "543",
+            "cpsc_dept": "cpsc"
+        },
+        {
+            "cpsc_id": "543",
+            "cpsc_dept": "cpsc"
+        },
+        {
+            "cpsc_id": "543",
+            "cpsc_dept": "cpsc"
+        },
+        {
+            "cpsc_id": "543",
+            "cpsc_dept": "cpsc"
+        },
+        {
+            "cpsc_id": "543",
+            "cpsc_dept": "cpsc"
+        },
+        {
+            "cpsc_id": "543",
+            "cpsc_dept": "cpsc"
+        },
+        {
+            "cpsc_id": "543",
+            "cpsc_dept": "cpsc"
+        },
+        {
+            "cpsc_id": "543",
+            "cpsc_dept": "cpsc"
+        },
+        {
+            "cpsc_id": "543",
+            "cpsc_dept": "cpsc"
+        },
+        {
+            "cpsc_id": "543",
+            "cpsc_dept": "cpsc"
+        },
+        {
+            "cpsc_id": "543",
+            "cpsc_dept": "cpsc"
+        },
+        {
+            "cpsc_id": "544",
+            "cpsc_dept": "cpsc"
+        },
+        {
+            "cpsc_id": "544",
+            "cpsc_dept": "cpsc"
+        },
+        {
+            "cpsc_id": "544",
+            "cpsc_dept": "cpsc"
+        },
+        {
+            "cpsc_id": "544",
+            "cpsc_dept": "cpsc"
+        },
+        {
+            "cpsc_id": "544",
+            "cpsc_dept": "cpsc"
+        },
+        {
+            "cpsc_id": "544",
+            "cpsc_dept": "cpsc"
+        },
+        {
+            "cpsc_id": "544",
+            "cpsc_dept": "cpsc"
+        },
+        {
+            "cpsc_id": "544",
+            "cpsc_dept": "cpsc"
+        },
+        {
+            "cpsc_id": "544",
+            "cpsc_dept": "cpsc"
+        },
+        {
+            "cpsc_id": "544",
+            "cpsc_dept": "cpsc"
+        },
+        {
+            "cpsc_id": "544",
+            "cpsc_dept": "cpsc"
+        },
+        {
+            "cpsc_id": "544",
+            "cpsc_dept": "cpsc"
+        },
+        {
+            "cpsc_id": "544",
+            "cpsc_dept": "cpsc"
+        },
+        {
+            "cpsc_id": "544",
+            "cpsc_dept": "cpsc"
+        },
+        {
+            "cpsc_id": "544",
+            "cpsc_dept": "cpsc"
+        },
+        {
+            "cpsc_id": "544",
+            "cpsc_dept": "cpsc"
+        },
+        {
+            "cpsc_id": "544",
+            "cpsc_dept": "cpsc"
+        },
+        {
+            "cpsc_id": "544",
+            "cpsc_dept": "cpsc"
+        },
+        {
+            "cpsc_id": "547",
+            "cpsc_dept": "cpsc"
+        },
+        {
+            "cpsc_id": "547",
+            "cpsc_dept": "cpsc"
+        },
+        {
+            "cpsc_id": "547",
+            "cpsc_dept": "cpsc"
+        },
+        {
+            "cpsc_id": "547",
+            "cpsc_dept": "cpsc"
+        },
+        {
+            "cpsc_id": "589",
+            "cpsc_dept": "cpsc"
+        },
+        {
+            "cpsc_id": "589",
+            "cpsc_dept": "cpsc"
+        },
+        {
+            "cpsc_id": "589",
+            "cpsc_dept": "cpsc"
+        },
+        {
+            "cpsc_id": "589",
+            "cpsc_dept": "cpsc"
+        },
+        {
+            "cpsc_id": "589",
+            "cpsc_dept": "cpsc"
+        },
+        {
+            "cpsc_id": "589",
+            "cpsc_dept": "cpsc"
+        },
+        {
+            "cpsc_id": "589",
+            "cpsc_dept": "cpsc"
+        },
+        {
+            "cpsc_id": "589",
+            "cpsc_dept": "cpsc"
+        },
+        {
+            "cpsc_id": "589",
+            "cpsc_dept": "cpsc"
+        },
+        {
+            "cpsc_id": "589",
+            "cpsc_dept": "cpsc"
+        },
+        {
+            "cpsc_id": "589",
+            "cpsc_dept": "cpsc"
+        },
+        {
+            "cpsc_id": "589",
+            "cpsc_dept": "cpsc"
+        },
+        {
+            "cpsc_id": "589",
+            "cpsc_dept": "cpsc"
+        },
+        {
+            "cpsc_id": "589",
+            "cpsc_dept": "cpsc"
+        },
+        {
+            "cpsc_id": "589",
+            "cpsc_dept": "cpsc"
+        },
+        {
+            "cpsc_id": "589",
+            "cpsc_dept": "cpsc"
+        },
+        {
+            "cpsc_id": "589",
+            "cpsc_dept": "cpsc"
+        }
+    ]
+}
