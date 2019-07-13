@@ -1,1 +1,0 @@
-{"id": "Liberation", "title": "Invalid IS should reject with InsightError.", "description": "IS clause uses a number, should be a string", "query": {"WHERE": {"IS": {"courses_dept": 1234}}, "OPTIONS": {"COLUMNS": ["courses_dept", "courses_id", "courses_avg"], "ORDER": "courses_id"}}, "isQueryValid": false, "result": "InsightError"}

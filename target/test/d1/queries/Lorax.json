@@ -1,1 +1,0 @@
-{"id": "Lorax", "title": "Empty AND should reject with InsightError.", "description": "AND clause is empty, should be invalid", "query": {"WHERE": {"AND": []}, "OPTIONS": {"COLUMNS": ["courses_dept", "courses_id", "courses_instructor"], "ORDER": "courses_id"}}, "isQueryValid": false, "result": "InsightError"}

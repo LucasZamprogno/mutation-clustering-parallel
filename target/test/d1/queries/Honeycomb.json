@@ -1,1 +1,0 @@
-{"id": "Honeycomb", "title": "Empty columns should reject with InsightError.", "description": "Missing options in COLUMNS", "query": {"WHERE": {"EQ": {"courses_dept": "*math*"}}, "OPTIONS": {"COLUMNS": [], "ORDER": "courses_avg"}}, "isQueryValid": false, "result": "InsightError"}

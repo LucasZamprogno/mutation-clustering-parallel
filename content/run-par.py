@@ -18,10 +18,18 @@ def split_list(seq, num):
 
 # https://docker-py.readthedocs.io/en/stable/containers.html
 client = docker.from_env()
+
+os.rename("Dockerfile-plan", "Dockerfile")
+client.images.build(path=".", tag="plan")
+os.rename("Dockerfile", "Dockerfile-plan")
+os.rename("Dockerfile-mutate", "Dockerfile")
+client.images.build(path=".", tag="mutate")
+os.rename("Dockerfile", "Dockerfile-mutate")
+
 client.containers.run(
     "plan",
     name="planner",
-    volumes={'D:\\Documents\\UBC\\Masters\\Research\\mutation-clustering-parallel\\plans': {'bind': '/app/plans', 'mode': 'rw'}}
+    volumes={'/content/plans': {'bind': '/app/plans', 'mode': 'rw'}}
 )
 
 with open("./plans/plans.json") as fp:
@@ -30,12 +38,12 @@ with open("./plans/plans.json") as fp:
 
 for ind, plan_slice in enumerate(plans):
     path = "./plans/plans-%d" % ind
-    path_no_cwd = "plans/plans-%d" % ind
+    dir = "plans-%d" % ind
     os.mkdir(path)
     with open("%s/%s" % (path, "plans.json"), "w+") as out:
         json.dump(plan_slice, out)
-    host_in = 'D:\\Documents\\UBC\\Masters\\Research\\mutation-clustering-parallel\\%s' % path_no_cwd
-    host_out = 'D:\\Documents\\UBC\\Masters\\Research\\mutation-clustering-parallel\\logs'
+    host_in = '/content/plans/%s' % dir
+    host_out = '/content/logs'
     client.containers.run(
         "mutate",
         name="mutator-%d" % ind,

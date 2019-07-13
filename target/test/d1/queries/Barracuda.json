@@ -1,1 +1,0 @@
-{"id": "Barracuda", "title": "Invalid query should reject with InsightError.", "description": "Invalid logic comparator \"XX\"", "query": {"WHERE": {"XX": {"courses_avg": "99"}}, "OPTIONS": {"COLUMNS": ["courses_avg"]}}, "isQueryValid": false, "result": "InsightError"}

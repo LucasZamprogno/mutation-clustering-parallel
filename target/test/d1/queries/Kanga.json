@@ -1,1 +1,0 @@
-{"id": "Kanga", "title": "Invalid key should reject with InsightError.", "description": "Contains invalid key \"courses_badkey\"", "query": {"WHERE": {"IS": {"courses_badkey": "cpsc"}}, "OPTIONS": {"COLUMNS": ["courses_dept", "courses_id", "courses_avg"], "ORDER": "courses_id"}}, "isQueryValid": false, "result": "InsightError"}

@@ -1,1 +1,0 @@
-{"id": "Barcelona", "title": "Invalid query should reject with InsightError.", "description": "Missing WHERE clause.", "query": {"OPTIONS": {"COLUMNS": ["courses_dept"]}}, "isQueryValid": false, "result": "InsightError"}
