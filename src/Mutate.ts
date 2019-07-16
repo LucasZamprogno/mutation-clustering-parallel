@@ -23,7 +23,7 @@ export interface Plan {
 }
 
 class MutationManager {
-    private DEBUG = true;
+    private DEBUG = false;
     private plans: Plan[] = fs.readJsonSync("./plans/plans.json");
     private readonly LOG_DIR = "./logs";
     private readonly MOCHA_RESULT = "./target/mochawesome-report/mochawesome.json";

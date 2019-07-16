@@ -1,7 +1,7 @@
 import docker
 import json
 import os
-N = 4
+N = 8
 
 # From https://stackoverflow.com/questions/2130016/splitting-a-list-into-n-parts-of-approximately-equal-length
 def split_list(seq, num):
@@ -18,10 +18,18 @@ def split_list(seq, num):
 
 # https://docker-py.readthedocs.io/en/stable/containers.html
 client = docker.from_env()
+
+os.rename("Dockerfile-plan", "Dockerfile")
+client.images.build(path=".", tag="plan")
+os.rename("Dockerfile", "Dockerfile-plan")
+os.rename("Dockerfile-mutate", "Dockerfile")
+client.images.build(path=".", tag="mutate")
+os.rename("Dockerfile", "Dockerfile-mutate")
+
 client.containers.run(
     "plan",
     name="planner",
-    volumes={'D:\\Documents\\UBC\\Masters\\Research\\mutation-clustering-parallel\\plans': {'bind': '/app/plans', 'mode': 'rw'}}
+    volumes={'/home/lucas/Documents/mutation-clustering-parallel/plans': {'bind': '/app/plans', 'mode': 'rw'}}
 )
 
 with open("./plans/plans.json") as fp:
@@ -34,8 +42,8 @@ for ind, plan_slice in enumerate(plans):
     os.mkdir(path)
     with open("%s/%s" % (path, "plans.json"), "w+") as out:
         json.dump(plan_slice, out)
-    host_in = 'D:\\Documents\\UBC\\Masters\\Research\\mutation-clustering-parallel\\%s' % path_no_cwd
-    host_out = 'D:\\Documents\\UBC\\Masters\\Research\\mutation-clustering-parallel\\logs'
+    host_in = '/home/lucas/Documents/mutation-clustering-parallel/%s' % path_no_cwd
+    host_out = '/home/lucas/Documents/mutation-clustering-parallel/logs'
     client.containers.run(
         "mutate",
         name="mutator-%d" % ind,
