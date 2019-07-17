@@ -1,3 +1,5 @@
+# Run container with docker run --name main -v /var/run/docker.sock:/var/run/docker.sock -v /home/lucas/Documents/mutation-clustering-parallel/plans:/content/plans -v /home/lucas/Documents/mutation-clustering-parallel:/content/logs main
+
 import docker
 import json
 import os
@@ -29,7 +31,7 @@ os.rename("Dockerfile", "Dockerfile-mutate")
 client.containers.run(
     "plan",
     name="planner",
-    volumes={'/content/plans': {'bind': '/app/plans', 'mode': 'rw'}}
+    volumes={'/home/lucas/Documents/mutation-clustering-parallel/plans': {'bind': '/app/plans', 'mode': 'rw'}}
 )
 
 with open("./plans/plans.json") as fp:
@@ -42,8 +44,8 @@ for ind, plan_slice in enumerate(plans):
     os.mkdir(path)
     with open("%s/%s" % (path, "plans.json"), "w+") as out:
         json.dump(plan_slice, out)
-    host_in = '/content/plans/%s' % dir
-    host_out = '/content/logs'
+    host_in = '/home/lucas/Documents/mutation-clustering-parallel/plans/%s' % dir
+    host_out = '/home/lucas/Documents/mutation-clustering-parallel/logs'
     client.containers.run(
         "mutate",
         name="mutator-%d" % ind,
